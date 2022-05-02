@@ -1,0 +1,158 @@
+{
+  "RiderID": 1,
+  "RideID": 10000,
+  "Date": "2006-01-07T14:44:02.000Z",
+  "Distance": 30,
+  "SpeedAvg": 16.4,
+  "SpeedMax": 32.6,
+  "Cadence": 0,
+  "HRAvg": null,
+  "HRMax": null,
+  "Title": "MPSimiLoop",
+  "PowerAvg": 0,
+  "PowerMax": 0,
+  "StravaID": 644969,
+  "Comment": "Along Alamo to Stearns. No Power Tap.",
+  "ElevationGain": 1239,
+  "ElevationLoss": 1239,
+  "AltitudeMax": 0,
+  "AltitudeMin": 0,
+  "TemperatureAvg": 0,
+  "TemperatureMax": 0,
+  "TemperatureMin": 0,
+  "ElapsedTime": 6960,
+  "MovingTime": 0,
+  "HasDetail": true,
+  "PowerNormalized": null,
+  "IntensityFactor": null,
+  "TSS": null,
+  "Matches": [],
+  "Trainer": false,
+  "Username": "McMurdoStation",
+  "BikeName": "Trek 5500",
+  "Device_Name": "",
+  "Weight": 160,
+  "WeightKg": 72.6,
+  "savedToDB": true,
+  "ChangeLog": [
+    { "change": "Created from DB", "datetime": "2018-12-09T12:58:26" },
+    {
+      "change": "calcRideZonesFromRideID",
+      "datetime": "2019-01-02T04:51:48.776Z"
+    },
+    {
+      "change": "calcRideZonesFromRideID",
+      "datetime": "2019-01-02T05:18:49.827Z"
+    }
+  ],
+  "FTP": 260,
+  "MatchDefinition": "20:1.5;60:1.2;300:1.15;600:1.08;1200:1.0",
+  "Zones": [
+    {
+      "ZoneType": "HR",
+      "ZoneLightRecords": [
+        {
+          "Zone": 1,
+          "Low": "0",
+          "High": "134",
+          "TimeInZone": "00:07:01",
+          "FormattedPercent": 100,
+          "Seconds": 421
+        },
+        {
+          "Zone": 2,
+          "Low": "135",
+          "High": "140",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 3,
+          "Low": "141",
+          "High": "151",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 4,
+          "Low": "152",
+          "High": "168",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 5,
+          "Low": "169",
+          "High": "Max",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        }
+      ]
+    },
+    {
+      "ZoneType": "Power",
+      "ZoneLightRecords": [
+        {
+          "Zone": 1,
+          "Low": "0",
+          "High": "190",
+          "TimeInZone": "00:07:01",
+          "FormattedPercent": 100,
+          "Seconds": 421
+        },
+        {
+          "Zone": 2,
+          "Low": "191",
+          "High": "215",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 3,
+          "Low": "216",
+          "High": "245",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 4,
+          "Low": "246",
+          "High": "275",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 5,
+          "Low": "276",
+          "High": "310",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 6,
+          "Low": "311",
+          "High": "406",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        },
+        {
+          "Zone": 7,
+          "Low": "407",
+          "High": "Max",
+          "TimeInZone": "00:00:00",
+          "FormattedPercent": "",
+          "Seconds": 0
+        }
+      ]
+    }
+  ]
+}
