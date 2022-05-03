@@ -2,6 +2,9 @@ const {getAccessToken} = require('./src/getAccessToken');
 const {getRecentRidesFromStrava} = require('./src/getRecentRidesFromStrava');
 const {uploadToS3Bucket} = require('./src/uploadToS3Bucket');
 const {updateRidesToDB} = require('./src/updateRidesToDB');
+const {refreshStravaAccessToken} = require('./src/refreshStravaAccessToken');
+
+require('dotenv').config();
 
 const AWS = require("aws-sdk");
 AWS.config.update({ region: "us-west-2" });
@@ -16,6 +19,7 @@ const riderID = "1";
 
 //const sqs = new AWS.SQS({ apiVersion: "2012-11-05" });
 
+/*
 ( async () => {
   const accessToken = await getAccessToken(riderID, docClient);
   if( accessToken){
@@ -26,4 +30,17 @@ const riderID = "1";
     }
   }
 })();
+*/
+( async () => {
+
+  const api = {
+    ClientID: process.env.CLIENTID,
+    ClientSecret: process.env.CLIENTSECRET,
+    ClientPermissions: process.env.CLIENTPERMISSIONS
+  };
+
+ await refreshStravaAccessToken("1", api, docClient);
+ console.log('All done.')
+})();
+
 
