@@ -3,32 +3,39 @@ const { createActivity, updateActivity } = require("./manageActivity");
 const updateRidesToDB = async (arrayWithRiderID, docClient) => {
   if( !Array.isArray(arrayWithRiderID) || arrayWithRiderID.length === 0 ) return;
 
-  const createParams = (riderID, id) => {
-    const params = {
-      TableName: "Rides",
-      Key: Object.assign({}, { RiderID: riderID, id: id }),
-      ProjectionExpression: "RiderID, id",
-    };
+  const createBatchParams = (recentRides) => {
+      if( !Array.isArray(recentRides) || recentRides.length === 0) return undefined;
 
-    return params;
+      const keys = recentRides.map( ride =>{
+          return Object.assign({}, {"RiderID": ride.RiderID, "id": ride.id });
+      });
+
+      const batchParams = {
+          "RequestItems": {
+              "Rides": {
+                  "Keys": keys,
+                  "ProjectionExpression":"RiderID, id"
+              },
+          },
+          "ReturnConsumedCapacity": "TOTAL"
+      }
+      return batchParams;
   };
 
-  const isExistingActivity = (data, recentRideID) => typeof data === 'object' && 'Item' in data && data.Item.id === recentRideID;
+  const isExistingActivity = (ride, existingRideArray) => {
+      if( !Array.isArray(existingRideArray) || existingRideArray.length === 0) return false;
+      return existingRideArray.find( obj => obj.RiderID === ride.RiderID &&  obj.id === ride.id) ? true : false;
+  }
 
-  const promiseArray = [];
-  for(let i = 0; i < arrayWithRiderID.length; i++ ){
-    const ride = arrayWithRiderID[i];
-    const thisParams = createParams(ride.RiderID, ride.id);
-    promiseArray.push( docClient.get(thisParams).promise() );
-  };
+  const params = createBatchParams(arrayWithRiderID);
+  const dataArray = await docClient.batchGet(params).promise()
+    .then( response => response.Responses.Rides )
+    .catch( err => console.log(`Error querying DB for recent ride existence: ${err.message}`));
 
   const dbUpdateArray = [];
-
-  const dataArray = await Promise.all( promiseArray)
-
   for( let i = 0; i < dataArray.length; i++){
     const ride = arrayWithRiderID[i];
-    if ( isExistingActivity(dataArray[i], ride.id) ) {
+    if ( isExistingActivity(ride, dataArray) ) {
       dbUpdateArray.push( updateActivity(ride, docClient) );
     } else {
       dbUpdateArray.push( createActivity(ride, docClient) );

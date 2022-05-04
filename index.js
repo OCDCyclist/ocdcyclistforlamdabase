@@ -19,6 +19,7 @@ const docClient = new AWS.DynamoDB.DocumentClient({
   console.log('all done eventHandlerUploadRecentRides')
 })();
 
+
 ( async () => {
   const {eventHandlerRefreshStravaTokens} = require('./eventHandlerRefreshStravaTokens');
   console.time('RefreshTokens')
@@ -27,5 +28,4 @@ const docClient = new AWS.DynamoDB.DocumentClient({
   await eventHandlerRefreshStravaTokens(sampleEventRefreshStravaTokens, docClient);
   console.log('all done eventHandlerRefreshStravaTokens')
 })();
-
 
