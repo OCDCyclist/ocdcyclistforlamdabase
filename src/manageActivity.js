@@ -20,11 +20,11 @@ const putIt = async (activity, docClient) => {
   };
 
   await docClient.put(params ).promise()
-    .then( result =>{
-      console.log(`Successfully added new ride for RiderID=${activity.RiderID} and id=${activity.id} with title ${activity.name}`);
+    .then( () =>{
+      logMessage('Create', activity);
     })
     .catch( err =>{
-      console.log(`Error while adding new ride for RiderID=${activity.RiderID} and id=${activity.id} with title ${activity.name}. Error: ${JSON.stringify(err)}`);
+      logMessage('Create', activity, err);
     });
 };
 
@@ -53,13 +53,22 @@ const updateIt = async (activity, docClient) => {
   };
 
   await docClient.update(params).promise()
-    .then( result =>{
-      console.log(`Successfully updated existing ride for RiderID=${activity.RiderID} and id=${activity.id} with title ${activity.name}`);
+    .then( () =>{
+      logMessage('Update', activity);
     })
     .catch( err =>{
-      console.log(`Error while updating existing ride for RiderID=${activity.RiderID} and id=${activity.id} with title ${activity.name}. Error: ${JSON.stringify(err)}`);
+      logMessage('Update', activity, err);
     });
 };
+
+const logMessage = (type, activity, err) =>{
+  if( err ){
+    console.log(`Type=${type} RiderID=${activity.riderID} id=${activity.id} name=${activity.name}: ${JSON.stringify(err)}`);
+  }
+  else{
+    console.log(`Type=${type} RiderID=${activity.RiderID} id=${activity.id} name=${activity.name}`);
+  }
+}
 
 exports.createActivity = createActivity;
 exports.updateActivity = updateActivity;

@@ -14,7 +14,10 @@ const uploadToS3Bucket= async (riderID, recentRides, s3) => {
     .catch( err =>{
       console.log(`Error in uploadToBucketFolderAndPingSQS for RiderID:${riderID} for ${uploadParams.Bucket}/${uploadParams.Key}: ${err.message}` );
       return false;
-    });
+    })
+    .finally( ()=>{
+      console.log('all done uploadToS3Bucket');
+    })
 };
 
 exports.uploadToS3Bucket = uploadToS3Bucket;

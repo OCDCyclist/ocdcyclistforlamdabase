@@ -1,13 +1,13 @@
 const fetch = require("node-fetch");
 
-const refreshStravaAccessToken = async (riderID, api, docClient) => {
+const refreshStravaToken = async (riderID, api, docClient) => {
     if (typeof riderID !== "string" || riderID.trim().length === 0) {
-      console.log(`Invalid riderid provided to refreshStravaAccessToken.`);
+      console.log(`Invalid riderid provided to refreshStravaToken.`);
       return false;
     }
 
     if (typeof docClient !== "object") {
-      console.log(`Invalid docClient provided to refreshStravaAccessToken.`);
+      console.log(`Invalid docClient provided to refreshStravaToken.`);
       return false;
     }
 
@@ -76,4 +76,4 @@ const createTokenExchangeObject = (api, refreshToken) =>{
     return returnValue;
 }
 
-exports.refreshStravaAccessToken = refreshStravaAccessToken;
+exports.refreshStravaToken = refreshStravaToken;

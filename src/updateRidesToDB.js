@@ -13,6 +13,8 @@ const updateRidesToDB = async (arrayWithRiderID, docClient) => {
     return params;
   };
 
+  const isExistingActivity = (data, recentRideID) => typeof data === 'object' && 'Item' in data && data.Item.id === recentRideID;
+
   const promiseArray = [];
   for(let i = 0; i < arrayWithRiderID.length; i++ ){
     const ride = arrayWithRiderID[i];
@@ -20,24 +22,21 @@ const updateRidesToDB = async (arrayWithRiderID, docClient) => {
     promiseArray.push( docClient.get(thisParams).promise() );
   };
 
-  await Promise.all( promiseArray)
-    .then( async dataArray =>{
-      for( let j = 0; j < dataArray.length; j++){
-        const ride = arrayWithRiderID[j];
-        const data = dataArray[j];
-        const updateExisitingRide = typeof data === 'object' && 'Item' in data && data.Item.id === arrayWithRiderID[j].id ;
-        if ( updateExisitingRide) {
-          /*await*/ updateActivity(ride, docClient);
-        } else {
-          /*await*/ createActivity(ride, docClient);
-        }
-      }
-      console.log(`updateRidesToDB completed for ${dataArray.length} activities.` );
-    })
-    .catch( err => {
-      console.log(`Error in updateRidesToDB: ${err.message}` );
-      return [];
-  });
+  const dbUpdateArray = [];
+
+  const dataArray = await Promise.all( promiseArray)
+
+  for( let i = 0; i < dataArray.length; i++){
+    const ride = arrayWithRiderID[i];
+    if ( isExistingActivity(dataArray[i], ride.id) ) {
+      dbUpdateArray.push( updateActivity(ride, docClient) );
+    } else {
+      dbUpdateArray.push( createActivity(ride, docClient) );
+    }
+  }
+
+  await Promise.all(dbUpdateArray);
+  console.log(`all done updateRidesToDB for ${dataArray.length} activities`);
 };
 
 exports.updateRidesToDB = updateRidesToDB;
