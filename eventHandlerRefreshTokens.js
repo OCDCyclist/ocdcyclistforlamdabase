@@ -12,17 +12,28 @@ const eventHandlerRefreshTokens = async (event, docClient) =>{
     const riders = [];
     const promiseArray = [];
 
-    const params = {
-        ProjectionExpression: "RiderID",
-        TableName: "Riders"
-    };
-    const result = await docClient.scan(params).promise();
-    const records = Array.isArray(result.Items) ? result.Items : [];
-
-    for( let i = 0; i < records.length; i++){
-        const thisRiderID = records[i].RiderID;
-        if( isvalidString(thisRiderID) && !riders.includes( thisRiderID) ){
-            riders.push(thisRiderID)
+    // If the event contains records then process them, otherwide process all Riders.
+    if( event && 'Records' in event && Array.isArray( event.Records) && event.Records.length > 0 && 'RiderID' in  event.Records[0].MessageAttributes){
+        const records = event.Records;
+        for( let i = 0; i < records.length; i++){
+            const thisRiderID = records[i].MessageAttributes.RiderID.StringValue;
+            if( isvalidString(thisRiderID) && !riders.includes( thisRiderID) ){
+                riders.push(thisRiderID)
+            }
+        }
+    }
+    else{
+        const params = {
+            ProjectionExpression: "RiderID",
+            TableName: "Riders"
+        };
+        const result = await docClient.scan(params).promise();
+        const records = Array.isArray(result.Items) ? result.Items : [];
+        for( let i = 0; i < records.length; i++){
+            const thisRiderID = records[i].RiderID;
+            if( isvalidString(thisRiderID) && !riders.includes( thisRiderID) ){
+                riders.push(thisRiderID)
+            }
         }
     }
 

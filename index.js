@@ -19,6 +19,6 @@ const docClient = new AWS.DynamoDB.DocumentClient({
 
 
 ( async () => {
-  await eventHandlerRefreshTokens(sampleEventRefreshStravaTokens, docClient);
+  await eventHandlerRefreshTokens(undefined, docClient);
 })();
 
