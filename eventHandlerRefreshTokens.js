@@ -1,6 +1,6 @@
 const {refreshStravaToken} = require('./src/refreshStravaToken');
 
-const eventHandlerRefreshStravaTokens = async (event, docClient) =>{
+const eventHandlerRefreshTokens = async (event, docClient) =>{
     const isvalidString = val => typeof val === 'string' && val.trim().length > 0;
 
     const api = {
@@ -9,12 +9,18 @@ const eventHandlerRefreshStravaTokens = async (event, docClient) =>{
         ClientPermissions: process.env.CLIENTPERMISSIONS
     };
 
-    const records = event.Records;
     const riders = [];
     const promiseArray = [];
 
+    const params = {
+        ProjectionExpression: "RiderID",
+        TableName: "Riders"
+    };
+    const result = await docClient.scan(params).promise();
+    const records = Array.isArray(result.Items) ? result.Items : [];
+
     for( let i = 0; i < records.length; i++){
-        const thisRiderID = records[i].MessageAttributes.RiderID.StringValue;
+        const thisRiderID = records[i].RiderID;
         if( isvalidString(thisRiderID) && !riders.includes( thisRiderID) ){
             riders.push(thisRiderID)
         }
@@ -28,4 +34,4 @@ const eventHandlerRefreshStravaTokens = async (event, docClient) =>{
     await Promise.all(promiseArray);
 }
 
-exports.eventHandlerRefreshStravaTokens = eventHandlerRefreshStravaTokens;
+exports.eventHandlerRefreshTokens = eventHandlerRefreshTokens;

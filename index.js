@@ -1,5 +1,8 @@
-
 require('dotenv').config();
+const {eventHandlerUploadRecentRides} = require('./eventHandlerUploadRecentRides');
+const {eventHandlerRefreshTokens} = require('./eventHandlerRefreshTokens');
+const {sampleEventUploadRecentRides} = require('./data/sampleEventUploadRecentRides');
+const {sampleEventRefreshStravaTokens} = require('./data/sampleEventRefreshStravaTokens');
 
 const AWS = require("aws-sdk");
 AWS.config.update({ region: "us-west-2" });
@@ -11,21 +14,11 @@ const docClient = new AWS.DynamoDB.DocumentClient({
 });
 
 ( async () => {
-  const {eventHandlerUploadRecentRides} = require('./eventHandlerUploadRecentRides');
-  const {sampleEventUploadRecentRides} = require('./data/sampleEventUploadRecentRides');
-  console.time('RecentRides')
-  await eventHandlerUploadRecentRides(sampleEventUploadRecentRides, s3, docClient);
-  console.timeEnd('RecentRides')
-  console.log('all done eventHandlerUploadRecentRides')
+  //await eventHandlerUploadRecentRides(sampleEventUploadRecentRides, s3, docClient);
 })();
 
 
 ( async () => {
-  const {eventHandlerRefreshStravaTokens} = require('./eventHandlerRefreshStravaTokens');
-  console.time('RefreshTokens')
-  const {sampleEventRefreshStravaTokens} = require('./data/sampleEventRefreshStravaTokens');
-  console.timeEnd('RefreshTokens');
-  await eventHandlerRefreshStravaTokens(sampleEventRefreshStravaTokens, docClient);
-  console.log('all done eventHandlerRefreshStravaTokens')
+  await eventHandlerRefreshTokens(sampleEventRefreshStravaTokens, docClient);
 })();
 
