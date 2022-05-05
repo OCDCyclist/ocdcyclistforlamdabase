@@ -14,11 +14,10 @@ const docClient = new AWS.DynamoDB.DocumentClient({
 });
 
 ( async () => {
-  //await eventHandlerUploadRecentRides(sampleEventUploadRecentRides, s3, docClient);
+  await eventHandlerUploadRecentRides(sampleEventUploadRecentRides, s3, docClient);
 })();
 
-
 ( async () => {
-  await eventHandlerRefreshTokens(undefined, docClient);
+  await eventHandlerRefreshTokens(sampleEventRefreshStravaTokens, docClient);
 })();
 
