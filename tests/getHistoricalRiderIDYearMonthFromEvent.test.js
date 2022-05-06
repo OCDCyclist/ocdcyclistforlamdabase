@@ -1,6 +1,6 @@
-const { getRidersFromEvent } = require("../src/getRidersFromEvent");
+const { getHistoricalRiderIDYearMonthFromEvent } = require("../src/getHistoricalRiderIDYearMonthFromEvent");
 
-const singleRiderEvent =  {
+const singleRiderYearMonthEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -17,9 +17,13 @@ const singleRiderEvent =  {
             DataType: "String",
             StringValue: "1"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          Year: {
+            DataType: "Number",
+            StringValue: "2022"
+          },
+          Month: {
+            DataType: "Number",
+            StringValue: "1"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -31,7 +35,7 @@ const singleRiderEvent =  {
     ]
 };
 
-const twoRiderEvent =  {
+const twoRiderYearMonthEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -48,9 +52,13 @@ const twoRiderEvent =  {
             DataType: "String",
             StringValue: "1"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          Year: {
+            DataType: "Number",
+            StringValue: "2022"
+          },
+          Month: {
+            DataType: "Number",
+            StringValue: "1"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -72,11 +80,15 @@ const twoRiderEvent =  {
         MessageAttributes: {
           RiderID: {
             DataType: "String",
+            StringValue: "1"
+          },
+          Year: {
+            DataType: "Number",
+            StringValue: "2022"
+          },
+          Month: {
+            DataType: "Number",
             StringValue: "2"
-          },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -88,7 +100,7 @@ const twoRiderEvent =  {
     ]
 };
 
-const duplicatedRiderEvent =  {
+const duplicatedRiderYearMonthEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -105,9 +117,13 @@ const duplicatedRiderEvent =  {
             DataType: "String",
             StringValue: "1"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          Year: {
+            DataType: "Number",
+            StringValue: "2022"
+          },
+          Month: {
+            DataType: "Number",
+            StringValue: "2"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -131,9 +147,13 @@ const duplicatedRiderEvent =  {
             DataType: "String",
             StringValue: "1"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          Year: {
+            DataType: "Number",
+            StringValue: "2022"
+          },
+          Month: {
+            DataType: "Number",
+            StringValue: "2"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -145,7 +165,7 @@ const duplicatedRiderEvent =  {
     ]
 };
 
-const noRiderEvent =  {
+const noRiderYearMonthEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -161,54 +181,37 @@ const noRiderEvent =  {
     ]
 };
 
-describe("getRidersFromEvent basic tests", () => {
-  test("getRidersFromEvent exists and can be called", () => {
-    expect(typeof getRidersFromEvent).toBe("function");
+describe("getHistoricalRiderIDYearMonthFromEvent basic tests", () => {
+  test("getHistoricalRiderIDYearMonthFromEvent exists and can be called", () => {
+    expect(typeof getHistoricalRiderIDYearMonthFromEvent).toBe("function");
   });
-  test("getRidersFromEvent returns empty array when called with no parameters", async () => {
-    const actual = await getRidersFromEvent();
-    expect( Array.isArray(actual) && actual.length === 0 ).toBe(true);
-  });
-
-  test("getRidersFromEvent returns empty array when called with an undefined event and missing docClient", async () => {
-    const actual = await getRidersFromEvent(undefined);
-    expect( Array.isArray(actual) && actual.length === 0 ).toBe(true);
-  });
-
-  test("getRidersFromEvent returns empty array when called with an undefined event and undefined docClient", async () => {
-    const actual = await getRidersFromEvent(undefined, undefined);
+  test("getHistoricalRiderIDYearMonthFromEvent returns empty array when called with no parameters", async () => {
+    const actual = getHistoricalRiderIDYearMonthFromEvent();
     expect( Array.isArray(actual) && actual.length === 0 ).toBe(true);
   });
 });
 
-describe("getRidersFromEvent realistic functional tests with SQS queue events", () => {
-  test("getRidersFromEvent returns a single rider from an event with only a single rider", async () => {
-    const actual = await getRidersFromEvent(singleRiderEvent);
+describe("getHistoricalRiderIDYearMonthFromEvent realistic functional tests with SQS queue events", () => {
+  test("getHistoricalRiderIDYearMonthFromEvent returns a single rider, year, and month for an event with only a single rider, year, and month", async () => {
+    const actual = getHistoricalRiderIDYearMonthFromEvent(singleRiderYearMonthEvent);
     expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
+    expect(actual.some( obj => obj.RiderID === "1" && obj.Year === 2022 && obj.Month === 1)).toBe(true);
   });
 
-  test("getRidersFromEvent returns a 2 riders from an event with 2 distinct riders", async () => {
-      const actual = await getRidersFromEvent(twoRiderEvent);
-      expect( Array.isArray(actual) && actual.length === 2 ).toBe(true);
-      expect( actual.includes("1") ).toBe(true);
-      expect( actual.includes("2") ).toBe(true);
+  test("getHistoricalRiderIDYearMonthFromEvent returns two rider, year, and month for an event with two rider, year, and month", async () => {
+    const actual = getHistoricalRiderIDYearMonthFromEvent(twoRiderYearMonthEvent);
+    expect( Array.isArray(actual) && actual.length === 2 ).toBe(true);
+    expect(actual.some( obj => obj.RiderID === "1" && obj.Year === 2022 && obj.Month === 1)).toBe(true);
+    expect(actual.some( obj => obj.RiderID === "1" && obj.Year === 2022 && obj.Month === 2)).toBe(true);
   });
 
-  test("getRidersFromEvent returns a 1 rider from an event with 2 riders with the same riderID", async () => {
-      const actual = await getRidersFromEvent(duplicatedRiderEvent);
-      expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
-      expect( actual.includes("1") ).toBe(true);
-  });
-
-  test("getRidersFromEvent returns at least 1 rider when the incoming event has no riders", async () => {
-    const AWS = require("aws-sdk");
-    AWS.config.update({ region: "us-west-2" });
-    const docClient = new AWS.DynamoDB.DocumentClient({
-      apiVersion: "2012-08-10",
-    });
-
-    const actual = await getRidersFromEvent(noRiderEvent, docClient);
+  test("getHistoricalRiderIDYearMonthFromEvent returns one rider, year, and month for an event with duplicate rider, year, and month", async () => {
+    const actual = getHistoricalRiderIDYearMonthFromEvent(duplicatedRiderYearMonthEvent);
     expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
-    expect( actual.includes("1") ).toBe(true);
+    expect(actual.some( obj => obj.RiderID === "1" && obj.Year === 2022 && obj.Month === 2)).toBe(true);
+  });
+  test("getHistoricalRiderIDYearMonthFromEvent returns an empty array an event with no rider, year, and month", async () => {
+    const actual = getHistoricalRiderIDYearMonthFromEvent(noRiderYearMonthEvent);
+    expect( Array.isArray(actual) && actual.length === 0 ).toBe(true);
   });
 });

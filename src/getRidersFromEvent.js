@@ -18,7 +18,9 @@ const getRidersFromEvent = async (event, docClient) =>{
                 ProjectionExpression: "RiderID",
                 TableName: "Riders"
             };
-            const result = await docClient.scan(params).promise();
+            const result = await docClient.scan(params).promise()
+                .then( result => result)
+                .catch( err => { if( err )console.log( err.message) });
             const records = Array.isArray(result.Items) ? result.Items : [];
             for( let i = 0; i < records.length; i++){
                 const thisRiderID = records[i].RiderID;

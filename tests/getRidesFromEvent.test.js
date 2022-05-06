@@ -1,6 +1,6 @@
-const { getRidersFromEvent } = require("../src/getRidersFromEvent");
+const { getRidesFromEvent } = require("../src/getRidesFromEvent");
 
-const singleRiderEvent =  {
+const singleRideEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -17,9 +17,9 @@ const singleRiderEvent =  {
             DataType: "String",
             StringValue: "1"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          id: {
+            DataType: "Number",
+            StringValue: "123"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -31,7 +31,7 @@ const singleRiderEvent =  {
     ]
 };
 
-const twoRiderEvent =  {
+const twoRideEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -48,9 +48,9 @@ const twoRiderEvent =  {
             DataType: "String",
             StringValue: "1"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          id: {
+            DataType: "Number",
+            StringValue: "123"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -74,9 +74,9 @@ const twoRiderEvent =  {
             DataType: "String",
             StringValue: "2"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          id: {
+            DataType: "Number",
+            StringValue: "234"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -88,7 +88,7 @@ const twoRiderEvent =  {
     ]
 };
 
-const duplicatedRiderEvent =  {
+const duplicatedRideEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -103,11 +103,11 @@ const duplicatedRiderEvent =  {
         MessageAttributes: {
           RiderID: {
             DataType: "String",
-            StringValue: "1"
+            StringValue: "2"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          id: {
+            DataType: "Number",
+            StringValue: "234"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -129,11 +129,11 @@ const duplicatedRiderEvent =  {
         MessageAttributes: {
           RiderID: {
             DataType: "String",
-            StringValue: "1"
+            StringValue: "2"
           },
-          AccessToken: {
-            DataType: "String",
-            StringValue: "cc9f604fea151a90af181784c24a59e836c349bc"
+          id: {
+            DataType: "Number",
+            StringValue: "234"
           }
         },
         MessageBody: "RiderID 1 has requested an activity update from Strava",
@@ -145,7 +145,7 @@ const duplicatedRiderEvent =  {
     ]
 };
 
-const noRiderEvent =  {
+const noRideEvent =  {
     Records: [
       {
         messageId: "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
@@ -161,54 +161,48 @@ const noRiderEvent =  {
     ]
 };
 
-describe("getRidersFromEvent basic tests", () => {
-  test("getRidersFromEvent exists and can be called", () => {
-    expect(typeof getRidersFromEvent).toBe("function");
+describe("getRidesFromEvent basic tests", () => {
+  test("getRidesFromEvent exists and can be called", () => {
+    expect(typeof getRidesFromEvent).toBe("function");
   });
-  test("getRidersFromEvent returns empty array when called with no parameters", async () => {
-    const actual = await getRidersFromEvent();
+  test("getRidesFromEvent returns empty array when called with no parameters", async () => {
+    const actual = await getRidesFromEvent();
     expect( Array.isArray(actual) && actual.length === 0 ).toBe(true);
   });
 
-  test("getRidersFromEvent returns empty array when called with an undefined event and missing docClient", async () => {
-    const actual = await getRidersFromEvent(undefined);
+  test("getRidesFromEvent returns empty array when called with an undefined event and missing docClient", async () => {
+    const actual = await getRidesFromEvent(undefined);
     expect( Array.isArray(actual) && actual.length === 0 ).toBe(true);
   });
 
-  test("getRidersFromEvent returns empty array when called with an undefined event and undefined docClient", async () => {
-    const actual = await getRidersFromEvent(undefined, undefined);
+  test("getRidesFromEvent returns empty array when called with an undefined event and undefined docClient", async () => {
+    const actual = await getRidesFromEvent(undefined, undefined);
     expect( Array.isArray(actual) && actual.length === 0 ).toBe(true);
   });
 });
 
-describe("getRidersFromEvent realistic functional tests with SQS queue events", () => {
-  test("getRidersFromEvent returns a single rider from an event with only a single rider", async () => {
-    const actual = await getRidersFromEvent(singleRiderEvent);
+describe("getRidesFromEvent functional tests", () => {
+  test("getRidesFromEvent returns one item for an event with one item", async () => {
+    const actual = await getRidesFromEvent(singleRideEvent);
     expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
+    expect( actual[0].RiderID).toBe("1")
+    expect( actual[0].id).toBe("123")
   });
 
-  test("getRidersFromEvent returns a 2 riders from an event with 2 distinct riders", async () => {
-      const actual = await getRidersFromEvent(twoRiderEvent);
-      expect( Array.isArray(actual) && actual.length === 2 ).toBe(true);
-      expect( actual.includes("1") ).toBe(true);
-      expect( actual.includes("2") ).toBe(true);
+  test("getRidesFromEvent returns one item for an event with one item", async () => {
+    const actual = await getRidesFromEvent(twoRideEvent);
+    expect( Array.isArray(actual) && actual.length === 2 ).toBe(true);
+    expect( actual[0].RiderID).toBe("1")
+    expect( actual[0].id).toBe("123")
+    expect( actual[1].RiderID).toBe("2")
+    expect( actual[1].id).toBe("234")
   });
 
-  test("getRidersFromEvent returns a 1 rider from an event with 2 riders with the same riderID", async () => {
-      const actual = await getRidersFromEvent(duplicatedRiderEvent);
-      expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
-      expect( actual.includes("1") ).toBe(true);
-  });
-
-  test("getRidersFromEvent returns at least 1 rider when the incoming event has no riders", async () => {
-    const AWS = require("aws-sdk");
-    AWS.config.update({ region: "us-west-2" });
-    const docClient = new AWS.DynamoDB.DocumentClient({
-      apiVersion: "2012-08-10",
-    });
-
-    const actual = await getRidersFromEvent(noRiderEvent, docClient);
+  test("getRidesFromEvent returns removes duplicate records in the event", async () => {
+    const actual = await getRidesFromEvent(duplicatedRideEvent);
     expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
-    expect( actual.includes("1") ).toBe(true);
+    expect( actual[0].RiderID).toBe("2")
+    expect( actual[0].id).toBe("234")
   });
 });
+

@@ -1,0 +1,3415 @@
+{
+    "resource_state": 3,
+    "athlete": {
+        "id": 8116,
+        "resource_state": 1
+    },
+    "name": "Tuesday Rock Store Upper Encinal: Ouch",
+    "distance": 45846.6,
+    "moving_time": 5777,
+    "elapsed_time": 6912,
+    "total_elevation_gain": 868,
+    "type": "Ride",
+    "workout_type": 10,
+    "id": 7084588632,
+    "start_date": "2022-05-04T00:30:19Z",
+    "start_date_local": "2022-05-03T17:30:19Z",
+    "timezone": "(GMT-08:00) America/Los_Angeles",
+    "utc_offset": -25200,
+    "location_city": null,
+    "location_state": null,
+    "location_country": "United States",
+    "achievement_count": 8,
+    "kudos_count": 93,
+    "comment_count": 3,
+    "athlete_count": 4,
+    "photo_count": 0,
+    "map": {
+        "id": "a7084588632",
+        "polyline": "mvjoE|kftUDOHER@PHr@t@HA?Mg@g@mAmB_@u@e@wAYwAy@oGo@mEw@{Ei@sC{AwGkAcEoA}DqAoDcAgCmFwLq@qAcAiBeBgC}BsCcBkB[[GI?MBMlAeCj@cBPq@VuAPuAHeADeA?yAQeLOcG?qCFmAh@cGNyB@oKD{ADaAz@{JD{@DuBAsBGwBQyBWwBk@eIgAsMCy@?yAD{AZ{ELgDCmDUsI?sBH_Dn@{IDqCCgAi@uKUcBWgCE_BHaBT_B\\wAj@uAV{@RaA\\kCRcAXcAz@wBXaAPcARiBDiAB}IAmA@[Gs@Ak@G_HH{FAcEBsA?wCBKBGJ?JBr@ZdBj@xA^RLNTLVZhA^`CJxABfAHp@HR^h@RNx@b@`ARdAF`@FFCTa@|@oB~DkIj@uAz@uANQ|@k@jAe@d@YlBmB|AiB`AaAVS~@k@rAw@lBy@dHkB|Cq@l@QVE`AYf@]xA{B~@kAp@u@f@_@z@i@h@Uh@Q`AMhDIxBCRDPFlAjA^LN?b@ONOnAaCNUf@i@z@s@l@a@n@UXE\\?v@HfBd@t@JrDNzDXh@@fDRh@FrCLf@JRHPLLPzArCzAxC`D`Fn@l@`@Vf@Rd@HR@f@?f@Mf@Up@i@`D_Dj@s@|@iB^a@b@UfDo@p@ApBBxALtBFrALd@Z`@h@d@`@RLVHTNjAnA\\l@H\\?`@G~C?jF@\\JZNRf@XpAb@nBv@NJX^Pd@JzALbKH|@Nz@Bd@ARa@fCBdBZ|ETjAv@jCRh@DT@f@CrA@|@Bh@XxBJjADx@@z@G|@]xAm@nA_@\\OJg@Hy@JwD\\iB?k@CcBBYCWD_Aj@m@h@k@h@aBlB[f@Wh@[~@e@zBQjAg@vEMbBCbBh@tFBh@LhF?j@ARERSd@eArAcAnCi@bASV_@`@WR_Ah@c@XIJIJK^Mp@?`@Db@z@bHH~@FnCb@dGVlFD~ASlDAd@@f@Fh@FTJRb@RTFp@b@r@XlAz@z@b@dBdApBbAf@PXFdCT^Pd@^XZT\\r@pAv@bAdA~@`Al@d@b@`@j@p@bBZl@v@hAjBvBb@z@Lh@\\vB^hBVxBDv@Jr@HXHJHLTHdBJd@ATG\\Sn@o@h@mA^qAJWt@{@^Yb@ST?z@T\\BLELMDO?IEQUUa@UOSA]Fy@AOCOIIMEk@BUCWSEO?ODWLOvAi@TEL?RHh@l@RJL@NA\\INATBn@C^@LDb@p@BDJDPEXQNQRKLADBFHLv@@TETMXGXCl@@t@BNDLh@r@DTA`@B`@Pr@fC`H\\`@v@f@\\^X`@Xj@Rr@@^GTQTOJ{@LQNQ^CN?^JZLPd@d@VLz@VPNPZBRCLKHWDqAK]@o@VIHELCNDZNP~@^BDd@lAh@p@Vj@DZCTKPe@ZORERCZDrAPbARz@Fh@@ZANQNc@FOFWTMVQn@O`BKTQJW@o@KOIYUq@{@QIG?O@OHKTANBNNVp@v@j@r@f@f@HDVDP@nCGz@?n@D\\?rDRFFp@P|@Zn@ZNLLNRb@H\\Fj@FbBFVABC?DTA`@b@jK@rAIhBk@lIErAEd@GN@NSxH@t@Bb@Df@TjAfAlD^|AdDxO|@`ExApHhA`FLx@D`AAl@Eb@[xAc@lAk@jA}@zB[pAKfACx@BdALhAXpAb@rABDHDjAvBnDzFjC|EJZX|A@b@ElB?jDBdAD`@VbB|CbOb@`CRz@b@nAn@~@b@b@j@XdAZn@Fp@?XAnBYZCz@@\\Jr@b@VXR\\L\\Ld@Hb@Bb@Ad@Cf@Gd@YfAShA]pC?hAJjAJ`@\\bAv@`Bb@bAfCnG~AdDv@rCPnABf@?tAKpAUlAOd@i@fAuB|CuA`C_@hAa@nBEd@C`@AhBB`BA|BDrAGnAB`BAj@HbE@dHBr@D`@H^Ph@NZ`@n@~@t@vAr@dBfAVRn@|@Td@N`@Jd@Jp@Dj@BrFAXA~BF`EFrAPlATp@z@tBt@pAZd@\\^p@f@rA|@dAbANRb@hAZ~@Nx@P|ADhBZnDN~@X~@`DvGzB|EbAfB^b@jAx@bC`An@\\z@r@h@t@Zp@d@vAh@jC^nA@HEPUNmAf@]Ta@b@SZMZMJeARcBf@[BQAWMU[a@y@o@s@y@e@e@O[A_ANg@@aAOgACs@JaAXi@Hm@FY?YEYO{@}@UQWKq@Qq@Ss@_@}BqBmAu@u@_@YUWUO_@Kc@YkBMc@O[k@o@[UwBiAi@]e@_@s@_AS]Wo@k@u@Qc@Kg@WiDSsAM_@MM_@I]?aANU?GAg@c@y@uAq@i@UWIMO_@Kg@Gg@@kAEeAOqAm@}DKeBCwDIg@QSWQ}@a@a@]Ya@MYQg@]uAO]_@_@eAq@y@o@e@S[IcAMsAUcAu@o@}@QII?G@]N{BhB_@VQHS@IC_@m@GEQE]A[De@L[Vg@l@YLMC_@c@c@YSYUo@OsAQm@GKUSuAKg@SUQGMQk@IGKAULQTGZIz@I\\GFMBMGUYWSOAM@MFKJi@|A}@dBOPS@OGGSGk@KSo@}@cA_CQ[KIIAKF]p@IDKCc@YM?M?KFIJKDM?GKC_@RmCXs@DO@]Ek@G[Qa@aAiAg@_@GKEMEs@Ec@O_@Ua@CI?WJuANm@l@{Ab@{@j@cAx@mB^gAF]@_@C_@Us@oBoCi@mAe@mBKq@KkACEED?HJjAh@~B\\~@Xf@n@t@Zb@b@|@Pl@DXEn@GXmAvCwAfCk@vAM`@On@IpACHEDG?_@S_CKSB_@TQDSE_@U[MOSMYIKKGKEOAk@DQCMKMSWiAUk@SIU@}@b@WDU@QIMSIWC]@}@Ba@H[^gA@UMOk@Ky@w@m@a@m@g@WQu@_@qAU_BKSGa@a@o@_BGYMuAE[KWOSQMSEW@QLMXQpASv@QVSPUDW?eBGWGSO]q@C[B_AE[Su@C[Fy@?WISQMUCW@mAPWLg@`@KRGTFd@ERKRc@VSFS@SAQOGSCwAGYKWOSQOU@q@NW?UKSQa@k@GWIu@OOUISMKUSs@MQSGU@m@P_Al@SFWGQMUGWDm@TaBJWHUNg@l@y@h@_@^s@^MLIREXCt@MTmAb@]Ro@n@k@n@}AnCO\\e@tASR]HoALYPg@r@eAnBy@`ASLWFYA_BgAWO]GY@[JmAv@[L]F[Aw@G[@[Fs@^WH]D]C]KWS_A_ASQWIWIaBKUEmFsAsAS}@Uo@e@[]MM_Bw@]UaA_Ai@q@WU{@_@i@]e@g@U_@sAwCU_@MMs@_@s@i@OKSESAW?m@FS?{AYQ?Q@a@Lc@He@Ag@Ka@Sc@]_@a@i@y@OQe@[SKm@Im@Co@Mk@SoAm@i@Km@AuALc@EeB[uAEUBSFaBr@QDc@Ji@DSCSESI{@c@e@YuAoAi@o@o@cAa@eAkEsIgJcQ_AwAYi@oAiCqIcPi@gAWo@I_@@OFMJIlEaDhLyIhDgCfAq@l@WnA[bI_A`AQl@Q|@]x@e@lAcAdAoAz@yAj@wATcA^sBLwANaJFmANkAX}An@qBd@eAx@qA~@eAx@s@l@_@^QbAa@rA[pGw@fEm@zA_@|@_@|@c@z@k@h@c@t@y@x@eAd@y@Tg@z@_CFI@OEQOMeAUiBW[CcA?oAHkARqA^eCz@{A^uALmA?sAK{A]iAQ[O_Ao@SII@MLODOEUYQMOFOJCAd@Ap@p@LDTEFGDQ@KEYq@{@kAoBYm@c@sAc@aC{AiLaAcGs@iDs@}Cy@aDsAoEs@wBuCoHuDoIoB_E_BiCaByByAeBiAkAg@g@GGEMF[hAaCt@{BZ}AXyBJoB@oAI}FWwM@aCHeBNiADGHCLBZEFEDGRuBASEM",
+        "resource_state": 3,
+        "summary_polyline": "mvjoE|kftUZUxAx@}DkHeFe\\wFySuLaYoLeP|BwFdAcH[{]`AkMFkNlAoRIkFaDea@n@yPYuR~@mSaBiX^aE`BiFdAqGnB}Fd@mDFiq@bHpBx@vBbAhJlB|AhDb@bKmS~D}BdJyI`EqBjQoErF{GvDqBdJ[rBxA`AFhD{ErDqBn`@fDxJnP~CbB|Cm@`E}DtCgE~D}@fMd@nDnCrBzCDfNxFhCz@pAv@~R_@`GZ|EfBvGl@hQk@`CsAdByGr@wHFoFfFoApCmBbOh@bKJhHmE`JyD|Cc@|AjAhLbAbSEdKRh@`ObIfF`A`EnFlDpCnB|DfE|FtBpNr@|@`D@lAcAtAwDtAuAnDM?k@gA_A?wBqBc@LgAzBo@pAbApDI`AbAjBi@NlA]lDr@pAXlCfC`HrBhBfA`CWjA}Ah@UnA~@rAzBdBg@\\oBIcA~@Tl@bAd@fBjD@p@kApBr@hH}At@mAjEwAS}A{Au@p@bD`EvNXfDpAz@~Az@bUiA`QKbLfJza@vDnSc@jDiDfJO`CPnC|@dD`LxRX|ADdLpGtZrAbBpBt@`JIlBxBXrCwApJJtClJ`UhAbFB|Ba@~CeGlKgA~EP|e@lAtCtGdEtAdC\\bCFnQX`DbD~GhFhEr@|Aj@xBr@vJh@~B`J|Q~G|DdBhBjCzJeCrAqAfBwE|@_CwC_Bu@mGCaGp@kB_BkMoHkBeGoGmEkCcEwAiJkDIsDiEg@aG}@oGYeIiCeBgBwE_DaCyEaAoC}BsE|CuB}@mDbBwAwA_A}DsCs@eAuAg@b@c@|BuBi@sBnEc@Rk@{AqCcF}@|@}@]}@XKk@n@{GkCsD{@iEZcCvDiIh@eCYsAyC}EaAqFn@zEfD~FPvByEpKk@lDmDYeA^cCkBgBQ{@iCgDXYgCn@{C}GoEeEi@qAaC[kCm@y@}@Hs@bDe@h@kDIq@aA_@oHeDNs@t@QbB_B^aAaEgCIu@}@QmA{BkCwChA_A]uE`AcEdDa@xBkBv@{A~AsCbG{C|@{DrFq@DoD}AeCpAmC?eCv@_E_CoOyCaMeJeD_GeCcBuKMeE{DeIuBcJ[_GrAiCmAsBoBmc@az@iAgD|ZmUbOeCrFyC`CiD`A{Cl@kEf@{NhAoE~AwCxByBpCsAlPaCvEcBtEoE`C{F{Au@iE[oMxCcDLyF{@oBiA_BWc@PdBt@d@k@aEgIaEoXuFyTiEgLeHoO{KsNfCyGz@gGYe\\"
+    },
+    "trainer": false,
+    "commute": false,
+    "manual": false,
+    "private": false,
+    "visibility": "everyone",
+    "flagged": false,
+    "gear_id": "b591511",
+    "start_latlng": [
+        34.13879013620317,
+        -118.82190705277026
+    ],
+    "end_latlng": [],
+    "average_speed": 7.936,
+    "max_speed": 19.898,
+    "average_cadence": 83.3,
+    "average_temp": 16,
+    "average_watts": 189.2,
+    "max_watts": 660,
+    "weighted_average_watts": 204,
+    "kilojoules": 1093,
+    "device_watts": true,
+    "has_heartrate": true,
+    "average_heartrate": 144,
+    "max_heartrate": 176,
+    "heartrate_opt_out": false,
+    "display_hide_heartrate_option": true,
+    "elev_high": 583.8,
+    "upload_id": 7541789247,
+    "upload_id_str": "7541789247",
+    "external_id": "77d22724-edea-4e63-8a50-4e5b64b177a0.fit",
+    "from_accepted_tag": false,
+    "pr_count": 6,
+    "total_photo_count": 1,
+    "has_kudoed": false,
+    "suffer_score": 96,
+    "description": "You'll never guess who pulled the entire length of Agoura from Lindero to Kanan.",
+    "calories": 1064,
+    "perceived_exertion": 9,
+    "prefer_perceived_exertion": false,
+    "segment_efforts": [
+        {
+            "id": 2956759341529177000,
+            "resource_state": 2,
+            "name": "Lindero-Lakeview to Baronsgate SPRINT",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 132,
+            "moving_time": 132,
+            "start_date": "2022-05-04T00:31:26Z",
+            "start_date_local": "2022-05-03T17:31:26Z",
+            "distance": 1174.15,
+            "start_index": 67,
+            "end_index": 199,
+            "average_cadence": 92,
+            "device_watts": true,
+            "average_watts": 163.8,
+            "average_heartrate": 119.4,
+            "max_heartrate": 126,
+            "segment": {
+                "id": 2340598,
+                "resource_state": 2,
+                "name": "Lindero-Lakeview to Baronsgate SPRINT",
+                "activity_type": "Ride",
+                "distance": 1174.15,
+                "average_grade": 0.4,
+                "maximum_grade": 5.4,
+                "elevation_high": 283.8,
+                "elevation_low": 279.6,
+                "start_latlng": [
+                    34.139318531379104,
+                    -118.8197960704565
+                ],
+                "end_latlng": [
+                    34.143721628934145,
+                    -118.80837078206241
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341529816000,
+            "resource_state": 2,
+            "name": "\"The Chevron to Ladyface Segment\" ",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 317,
+            "moving_time": 317,
+            "start_date": "2022-05-04T00:34:20Z",
+            "start_date_local": "2022-05-03T17:34:20Z",
+            "distance": 4163.54,
+            "start_index": 241,
+            "end_index": 558,
+            "average_cadence": 98.2,
+            "device_watts": true,
+            "average_watts": 238.8,
+            "average_heartrate": 152.3,
+            "max_heartrate": 168,
+            "segment": {
+                "id": 3311794,
+                "resource_state": 2,
+                "name": "\"The Chevron to Ladyface Segment\" ",
+                "activity_type": "Ride",
+                "distance": 4163.54,
+                "average_grade": -0.6,
+                "maximum_grade": 6.4,
+                "elevation_high": 261.2,
+                "elevation_low": 218.8,
+                "start_latlng": [
+                    34.14613234810531,
+                    -118.80609459243715
+                ],
+                "end_latlng": [
+                    34.14350084960461,
+                    -118.76214324496686
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": 1,
+            "achievements": [
+                {
+                    "type_id": 3,
+                    "type": "pr",
+                    "rank": 1
+                }
+            ],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341526895600,
+            "resource_state": 2,
+            "name": "Agoura Rd (Lindero to Reyes Adobe)",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 202,
+            "moving_time": 202,
+            "start_date": "2022-05-04T00:34:21Z",
+            "start_date_local": "2022-05-03T17:34:21Z",
+            "distance": 2290.4,
+            "start_index": 242,
+            "end_index": 444,
+            "average_cadence": 100.5,
+            "device_watts": true,
+            "average_watts": 252.8,
+            "average_heartrate": 147.4,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 14396315,
+                "resource_state": 2,
+                "name": "Agoura Rd (Lindero to Reyes Adobe)",
+                "activity_type": "Ride",
+                "distance": 2290.4,
+                "average_grade": 0.8,
+                "maximum_grade": 11.5,
+                "elevation_high": 305.9,
+                "elevation_low": 282.3,
+                "start_latlng": [
+                    34.145914,
+                    -118.805717
+                ],
+                "end_latlng": [
+                    34.145041,
+                    -118.781512
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": 1,
+            "achievements": [
+                {
+                    "type_id": 3,
+                    "type": "pr",
+                    "rank": 1
+                }
+            ],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341529555000,
+            "resource_state": 2,
+            "name": "Agoura Speed Zone",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 65,
+            "moving_time": 65,
+            "start_date": "2022-05-04T00:38:24Z",
+            "start_date_local": "2022-05-03T17:38:24Z",
+            "distance": 1042.9,
+            "start_index": 485,
+            "end_index": 550,
+            "average_cadence": 100,
+            "device_watts": true,
+            "average_watts": 249,
+            "average_heartrate": 159.6,
+            "max_heartrate": 162,
+            "segment": {
+                "id": 12892046,
+                "resource_state": 2,
+                "name": "Agoura Speed Zone",
+                "activity_type": "Ride",
+                "distance": 1042.9,
+                "average_grade": -0.2,
+                "maximum_grade": 8.4,
+                "elevation_high": 268.1,
+                "elevation_low": 254.3,
+                "start_latlng": [
+                    34.144752,
+                    -118.773901
+                ],
+                "end_latlng": [
+                    34.143449,
+                    -118.763075
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": 2,
+            "achievements": [
+                {
+                    "type_id": 3,
+                    "type": "pr",
+                    "rank": 2
+                }
+            ],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341525669000,
+            "resource_state": 2,
+            "name": "Death by hypothermia ❄❄❄",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 751,
+            "moving_time": 746,
+            "start_date": "2022-05-04T00:42:00Z",
+            "start_date_local": "2022-05-03T17:42:00Z",
+            "distance": 7779.5,
+            "start_index": 618,
+            "end_index": 1365,
+            "average_cadence": 92.8,
+            "device_watts": true,
+            "average_watts": 201.6,
+            "average_heartrate": 151.4,
+            "max_heartrate": 176,
+            "segment": {
+                "id": 26776509,
+                "resource_state": 2,
+                "name": "Death by hypothermia ❄❄❄",
+                "activity_type": "Ride",
+                "distance": 7779.5,
+                "average_grade": -0.3,
+                "maximum_grade": 9.9,
+                "elevation_high": 269.4,
+                "elevation_low": 222.6,
+                "start_latlng": [
+                    34.143374,
+                    -118.756423
+                ],
+                "end_latlng": [
+                    34.114417,
+                    -118.779607
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341527667700,
+            "resource_state": 2,
+            "name": "Cornell First Kicker",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 76,
+            "moving_time": 76,
+            "start_date": "2022-05-04T00:43:15Z",
+            "start_date_local": "2022-05-03T17:43:15Z",
+            "distance": 808.8,
+            "start_index": 689,
+            "end_index": 765,
+            "average_cadence": 97.6,
+            "device_watts": true,
+            "average_watts": 256.8,
+            "average_heartrate": 137.4,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 15245186,
+                "resource_state": 2,
+                "name": "Cornell First Kicker",
+                "activity_type": "Ride",
+                "distance": 808.8,
+                "average_grade": 1.5,
+                "maximum_grade": 8.5,
+                "elevation_high": 264.7,
+                "elevation_low": 247.5,
+                "start_latlng": [
+                    34.139877,
+                    -118.760071
+                ],
+                "end_latlng": [
+                    34.13486,
+                    -118.754347
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341528681500,
+            "resource_state": 2,
+            "name": "Cornell Drag Strip",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 44,
+            "moving_time": 44,
+            "start_date": "2022-05-04T00:43:15Z",
+            "start_date_local": "2022-05-03T17:43:15Z",
+            "distance": 481.1,
+            "start_index": 689,
+            "end_index": 733,
+            "average_cadence": 95.7,
+            "device_watts": true,
+            "average_watts": 188.6,
+            "average_heartrate": 129,
+            "max_heartrate": 139,
+            "segment": {
+                "id": 16610991,
+                "resource_state": 2,
+                "name": "Cornell Drag Strip",
+                "activity_type": "Ride",
+                "distance": 481.1,
+                "average_grade": -0.6,
+                "maximum_grade": 3.3,
+                "elevation_high": 252.9,
+                "elevation_low": 247.5,
+                "start_latlng": [
+                    34.139836,
+                    -118.760128
+                ],
+                "end_latlng": [
+                    34.137096,
+                    -118.756242
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": null,
+                "state": null,
+                "country": null,
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341529219000,
+            "resource_state": 2,
+            "name": "Cornell S",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 312,
+            "moving_time": 312,
+            "start_date": "2022-05-04T00:43:18Z",
+            "start_date_local": "2022-05-03T17:43:18Z",
+            "distance": 3568.06,
+            "start_index": 692,
+            "end_index": 1004,
+            "average_cadence": 96.9,
+            "device_watts": true,
+            "average_watts": 229.7,
+            "average_heartrate": 154.8,
+            "max_heartrate": 176,
+            "segment": {
+                "id": 654460,
+                "resource_state": 2,
+                "name": "Cornell S",
+                "activity_type": "Ride",
+                "distance": 3568.06,
+                "average_grade": -0.2,
+                "maximum_grade": 7.8,
+                "elevation_high": 221.8,
+                "elevation_low": 196.6,
+                "start_latlng": [
+                    34.13978607393801,
+                    -118.75988231040537
+                ],
+                "end_latlng": [
+                    34.113273276016116,
+                    -118.7512484472245
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": true
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341528376300,
+            "resource_state": 2,
+            "name": "Cornell First 1/2",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 155,
+            "moving_time": 155,
+            "start_date": "2022-05-04T00:43:32Z",
+            "start_date_local": "2022-05-03T17:43:32Z",
+            "distance": 1873,
+            "start_index": 706,
+            "end_index": 861,
+            "average_cadence": 98.2,
+            "device_watts": true,
+            "average_watts": 214.5,
+            "average_heartrate": 149.8,
+            "max_heartrate": 163,
+            "segment": {
+                "id": 4677231,
+                "resource_state": 2,
+                "name": "Cornell First 1/2",
+                "activity_type": "Ride",
+                "distance": 1873,
+                "average_grade": 0.2,
+                "maximum_grade": 12,
+                "elevation_high": 265.1,
+                "elevation_low": 242.7,
+                "start_latlng": [
+                    34.139143,
+                    -118.758746
+                ],
+                "end_latlng": [
+                    34.125246,
+                    -118.749699
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341527589000,
+            "resource_state": 2,
+            "name": "Cornell Second 1/2",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 152,
+            "moving_time": 152,
+            "start_date": "2022-05-04T00:45:51Z",
+            "start_date_local": "2022-05-03T17:45:51Z",
+            "distance": 1716.4,
+            "start_index": 845,
+            "end_index": 997,
+            "average_cadence": 98.5,
+            "device_watts": true,
+            "average_watts": 250.7,
+            "average_heartrate": 162.5,
+            "max_heartrate": 176,
+            "segment": {
+                "id": 4677240,
+                "resource_state": 2,
+                "name": "Cornell Second 1/2",
+                "activity_type": "Ride",
+                "distance": 1716.4,
+                "average_grade": 0,
+                "maximum_grade": 11.1,
+                "elevation_high": 254.2,
+                "elevation_low": 233.8,
+                "start_latlng": [
+                    34.126551,
+                    -118.751203
+                ],
+                "end_latlng": [
+                    34.113644,
+                    -118.751308
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341525789700,
+            "resource_state": 2,
+            "name": "Lake Malibou Speedway",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 193,
+            "moving_time": 193,
+            "start_date": "2022-05-04T00:48:47Z",
+            "start_date_local": "2022-05-03T17:48:47Z",
+            "distance": 2081.28,
+            "start_index": 1021,
+            "end_index": 1214,
+            "average_cadence": 87.2,
+            "device_watts": true,
+            "average_watts": 169.5,
+            "average_heartrate": 145.8,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 3684716,
+                "resource_state": 2,
+                "name": "Lake Malibou Speedway",
+                "activity_type": "Ride",
+                "distance": 2081.28,
+                "average_grade": -0.9,
+                "maximum_grade": 17.5,
+                "elevation_high": 253.7,
+                "elevation_low": 218.7,
+                "start_latlng": [
+                    34.112105844542384,
+                    -118.7512296717614
+                ],
+                "end_latlng": [
+                    34.10949639044702,
+                    -118.76778007484972
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341528360000,
+            "resource_state": 2,
+            "name": "Lake Vista DH",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 32,
+            "moving_time": 32,
+            "start_date": "2022-05-04T00:48:53Z",
+            "start_date_local": "2022-05-03T17:48:53Z",
+            "distance": 455.2,
+            "start_index": 1027,
+            "end_index": 1059,
+            "average_cadence": 60,
+            "device_watts": true,
+            "average_watts": 34.3,
+            "average_heartrate": 148.1,
+            "max_heartrate": 159,
+            "segment": {
+                "id": 22577730,
+                "resource_state": 2,
+                "name": "Lake Vista DH",
+                "activity_type": "Ride",
+                "distance": 455.2,
+                "average_grade": -7.2,
+                "maximum_grade": -3.2,
+                "elevation_high": 251.9,
+                "elevation_low": 219.2,
+                "start_latlng": [
+                    34.111601,
+                    -118.751382
+                ],
+                "end_latlng": [
+                    34.109499,
+                    -118.754598
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341523531000,
+            "resource_state": 2,
+            "name": "Gibson's Church Climb",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 54,
+            "moving_time": 54,
+            "start_date": "2022-05-04T00:54:50Z",
+            "start_date_local": "2022-05-03T17:54:50Z",
+            "distance": 318.4,
+            "start_index": 1384,
+            "end_index": 1438,
+            "average_cadence": 90.1,
+            "device_watts": true,
+            "average_watts": 303.3,
+            "average_heartrate": 156.1,
+            "max_heartrate": 163,
+            "segment": {
+                "id": 5300506,
+                "resource_state": 2,
+                "name": "Gibson's Church Climb",
+                "activity_type": "Ride",
+                "distance": 318.4,
+                "average_grade": 7,
+                "maximum_grade": 15.5,
+                "elevation_high": 259,
+                "elevation_low": 236.8,
+                "start_latlng": [
+                    34.114052,
+                    -118.781195
+                ],
+                "end_latlng": [
+                    34.113693,
+                    -118.784621
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341523937300,
+            "resource_state": 2,
+            "name": "RockStore (store to top)",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 1019,
+            "moving_time": 1013,
+            "start_date": "2022-05-04T00:56:59Z",
+            "start_date_local": "2022-05-03T17:56:59Z",
+            "distance": 4165.08,
+            "start_index": 1513,
+            "end_index": 2527,
+            "average_cadence": 72.9,
+            "device_watts": true,
+            "average_watts": 223.1,
+            "average_heartrate": 155.1,
+            "max_heartrate": 163,
+            "segment": {
+                "id": 636064,
+                "resource_state": 2,
+                "name": "RockStore (store to top)",
+                "activity_type": "Ride",
+                "distance": 4165.08,
+                "average_grade": 6.6,
+                "maximum_grade": 11.7,
+                "elevation_high": 486,
+                "elevation_low": 210.2,
+                "start_latlng": [
+                    34.10973938182,
+                    -118.788347421214
+                ],
+                "end_latlng": [
+                    34.0963697433472,
+                    -118.806402375922
+                ],
+                "elevation_profile": null,
+                "climb_category": 2,
+                "city": "Agoura Hills Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": true
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341526353000,
+            "resource_state": 2,
+            "name": "Rockstore - the actual climb",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 957,
+            "moving_time": 951,
+            "start_date": "2022-05-04T00:57:53Z",
+            "start_date_local": "2022-05-03T17:57:53Z",
+            "distance": 3647.09,
+            "start_index": 1567,
+            "end_index": 2519,
+            "average_cadence": 71.7,
+            "device_watts": true,
+            "average_watts": 226.3,
+            "average_heartrate": 154.9,
+            "max_heartrate": 163,
+            "segment": {
+                "id": 1643740,
+                "resource_state": 2,
+                "name": "Rockstore - the actual climb",
+                "activity_type": "Ride",
+                "distance": 3647.09,
+                "average_grade": 7.3,
+                "maximum_grade": 10.8,
+                "elevation_high": 555.9,
+                "elevation_low": 289.3,
+                "start_latlng": [
+                    34.10698,
+                    -118.79176
+                ],
+                "end_latlng": [
+                    34.096427,
+                    -118.805889
+                ],
+                "elevation_profile": null,
+                "climb_category": 2,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341523390500,
+            "resource_state": 2,
+            "name": "Rock Store - Lower straight to FHPT",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 132,
+            "moving_time": 132,
+            "start_date": "2022-05-04T00:58:47Z",
+            "start_date_local": "2022-05-03T17:58:47Z",
+            "distance": 568.1,
+            "start_index": 1621,
+            "end_index": 1753,
+            "average_cadence": 72.4,
+            "device_watts": true,
+            "average_watts": 230.1,
+            "average_heartrate": 154.7,
+            "max_heartrate": 157,
+            "segment": {
+                "id": 28538520,
+                "resource_state": 2,
+                "name": "Rock Store - Lower straight to FHPT",
+                "activity_type": "Ride",
+                "distance": 568.1,
+                "average_grade": 6.7,
+                "maximum_grade": 16.1,
+                "elevation_high": 329,
+                "elevation_low": 290.8,
+                "start_latlng": [
+                    34.106041,
+                    -118.794385
+                ],
+                "end_latlng": [
+                    34.103188,
+                    -118.792877
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341522248700,
+            "resource_state": 2,
+            "name": "Rockstore - Inside the Barriers",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 841,
+            "moving_time": 841,
+            "start_date": "2022-05-04T00:58:50Z",
+            "start_date_local": "2022-05-03T17:58:50Z",
+            "distance": 3092.1,
+            "start_index": 1624,
+            "end_index": 2465,
+            "average_cadence": 71.1,
+            "device_watts": true,
+            "average_watts": 224.1,
+            "average_heartrate": 155.1,
+            "max_heartrate": 159,
+            "segment": {
+                "id": 22774578,
+                "resource_state": 2,
+                "name": "Rockstore - Inside the Barriers",
+                "activity_type": "Ride",
+                "distance": 3092.1,
+                "average_grade": 7.7,
+                "maximum_grade": 17.1,
+                "elevation_high": 518,
+                "elevation_low": 279.8,
+                "start_latlng": [
+                    34.106048,
+                    -118.794523
+                ],
+                "end_latlng": [
+                    34.098165,
+                    -118.80495
+                ],
+                "elevation_profile": null,
+                "climb_category": 2,
+                "city": "Malibu",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341523124000,
+            "resource_state": 2,
+            "name": "Rock Store - First windy section",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 175,
+            "moving_time": 175,
+            "start_date": "2022-05-04T01:00:59Z",
+            "start_date_local": "2022-05-03T18:00:59Z",
+            "distance": 668.6,
+            "start_index": 1753,
+            "end_index": 1928,
+            "average_cadence": 69.5,
+            "device_watts": true,
+            "average_watts": 229.4,
+            "average_heartrate": 156.7,
+            "max_heartrate": 159,
+            "segment": {
+                "id": 28538542,
+                "resource_state": 2,
+                "name": "Rock Store - First windy section",
+                "activity_type": "Ride",
+                "distance": 668.6,
+                "average_grade": 7.5,
+                "maximum_grade": 14.9,
+                "elevation_high": 379.4,
+                "elevation_low": 329,
+                "start_latlng": [
+                    34.103188,
+                    -118.792877
+                ],
+                "end_latlng": [
+                    34.100763,
+                    -118.793453
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341523901400,
+            "resource_state": 2,
+            "name": "Rock Store -  The Straightaway",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 99,
+            "moving_time": 99,
+            "start_date": "2022-05-04T01:03:54Z",
+            "start_date_local": "2022-05-03T18:03:54Z",
+            "distance": 416.8,
+            "start_index": 1928,
+            "end_index": 2027,
+            "average_cadence": 78.7,
+            "device_watts": true,
+            "average_watts": 219.3,
+            "average_heartrate": 155.8,
+            "max_heartrate": 158,
+            "segment": {
+                "id": 28538601,
+                "resource_state": 2,
+                "name": "Rock Store -  The Straightaway",
+                "activity_type": "Ride",
+                "distance": 416.8,
+                "average_grade": 5.9,
+                "maximum_grade": 11.5,
+                "elevation_high": 403.8,
+                "elevation_low": 379.4,
+                "start_latlng": [
+                    34.100763,
+                    -118.793453
+                ],
+                "end_latlng": [
+                    34.098914,
+                    -118.797127
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341525840000,
+            "resource_state": 2,
+            "name": "Rockstore - hairpin to finish",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 181,
+            "moving_time": 175,
+            "start_date": "2022-05-04T01:10:58Z",
+            "start_date_local": "2022-05-03T18:10:58Z",
+            "distance": 671.1,
+            "start_index": 2352,
+            "end_index": 2528,
+            "average_cadence": 73.2,
+            "device_watts": true,
+            "average_watts": 224.7,
+            "average_heartrate": 155.9,
+            "max_heartrate": 163,
+            "segment": {
+                "id": 5541433,
+                "resource_state": 2,
+                "name": "Rockstore - hairpin to finish",
+                "activity_type": "Ride",
+                "distance": 671.1,
+                "average_grade": 7.2,
+                "maximum_grade": 12,
+                "elevation_high": 532.2,
+                "elevation_low": 483.8,
+                "start_latlng": [
+                    34.10076,
+                    -118.803543
+                ],
+                "end_latlng": [
+                    34.096427,
+                    -118.806437
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341525231600,
+            "resource_state": 2,
+            "name": "Rock Store - Upper straightaway to barrier",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 105,
+            "moving_time": 105,
+            "start_date": "2022-05-04T01:11:14Z",
+            "start_date_local": "2022-05-03T18:11:14Z",
+            "distance": 362,
+            "start_index": 2368,
+            "end_index": 2473,
+            "average_cadence": 70.3,
+            "device_watts": true,
+            "average_watts": 226.3,
+            "average_heartrate": 154.8,
+            "max_heartrate": 158,
+            "segment": {
+                "id": 28538693,
+                "resource_state": 2,
+                "name": "Rock Store - Upper straightaway to barrier",
+                "activity_type": "Ride",
+                "distance": 362,
+                "average_grade": 8.2,
+                "maximum_grade": 12.2,
+                "elevation_high": 527.2,
+                "elevation_low": 497.4,
+                "start_latlng": [
+                    34.100879,
+                    -118.804071
+                ],
+                "end_latlng": [
+                    34.097878,
+                    -118.804988
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341525534700,
+            "resource_state": 2,
+            "name": "Mulholland - Kanan to Encinal",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 272,
+            "moving_time": 272,
+            "start_date": "2022-05-04T01:19:37Z",
+            "start_date_local": "2022-05-03T18:19:37Z",
+            "distance": 1113.94,
+            "start_index": 2664,
+            "end_index": 2936,
+            "average_cadence": 67.9,
+            "device_watts": true,
+            "average_watts": 193.4,
+            "average_heartrate": 137.1,
+            "max_heartrate": 147,
+            "segment": {
+                "id": 641015,
+                "resource_state": 2,
+                "name": "Mulholland - Kanan to Encinal",
+                "activity_type": "Ride",
+                "distance": 1113.94,
+                "average_grade": 5.6,
+                "maximum_grade": 9,
+                "elevation_high": 561.2,
+                "elevation_low": 498.2,
+                "start_latlng": [
+                    34.09575937315822,
+                    -118.81664028391242
+                ],
+                "end_latlng": [
+                    34.094700487330556,
+                    -118.82769349962473
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341525836000,
+            "resource_state": 2,
+            "name": "Mulholland-Encinal Split",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 319,
+            "moving_time": 293,
+            "start_date": "2022-05-04T01:19:59Z",
+            "start_date_local": "2022-05-03T18:19:59Z",
+            "distance": 1298.67,
+            "start_index": 2686,
+            "end_index": 2983,
+            "average_cadence": 68.5,
+            "device_watts": true,
+            "average_watts": 188.1,
+            "average_heartrate": 137.9,
+            "max_heartrate": 147,
+            "segment": {
+                "id": 270801,
+                "resource_state": 2,
+                "name": "Mulholland-Encinal Split",
+                "activity_type": "Ride",
+                "distance": 1298.67,
+                "average_grade": 0,
+                "maximum_grade": 263.8,
+                "elevation_high": 614.4,
+                "elevation_low": 228.9,
+                "start_latlng": [
+                    34.146286,
+                    -118.813937
+                ],
+                "end_latlng": [
+                    34.146212,
+                    -118.813875
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Agoura Hills",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341522929700,
+            "resource_state": 2,
+            "name": "Upper Encinal",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 617,
+            "moving_time": 617,
+            "start_date": "2022-05-04T01:24:52Z",
+            "start_date_local": "2022-05-03T18:24:52Z",
+            "distance": 5488.76,
+            "start_index": 2957,
+            "end_index": 3574,
+            "average_cadence": 84.2,
+            "device_watts": true,
+            "average_watts": 217.7,
+            "average_heartrate": 149.4,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 1641515,
+                "resource_state": 2,
+                "name": "Upper Encinal",
+                "activity_type": "Ride",
+                "distance": 5488.76,
+                "average_grade": -1.6,
+                "maximum_grade": 14.4,
+                "elevation_high": 579.2,
+                "elevation_low": 408,
+                "start_latlng": [
+                    34.094390608370304,
+                    -118.82837134413421
+                ],
+                "end_latlng": [
+                    34.07760324887931,
+                    -118.87740162201226
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341525424000,
+            "resource_state": 2,
+            "name": "Encinal Canyon DH",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 143,
+            "moving_time": 143,
+            "start_date": "2022-05-04T01:25:13Z",
+            "start_date_local": "2022-05-03T18:25:13Z",
+            "distance": 2383.48,
+            "start_index": 2978,
+            "end_index": 3121,
+            "average_cadence": 99.5,
+            "device_watts": true,
+            "average_watts": 152.4,
+            "average_heartrate": 137.9,
+            "max_heartrate": 151,
+            "segment": {
+                "id": 665785,
+                "resource_state": 2,
+                "name": "Encinal Canyon DH",
+                "activity_type": "Ride",
+                "distance": 2383.48,
+                "average_grade": -6.4,
+                "maximum_grade": -1.2,
+                "elevation_high": 575.4,
+                "elevation_low": 422.2,
+                "start_latlng": [
+                    34.093188643455505,
+                    -118.83017596788704
+                ],
+                "end_latlng": [
+                    34.087125761434436,
+                    -118.8509956933558
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341524205600,
+            "resource_state": 2,
+            "name": "Encinal Hill - Mulholland Stingers",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 723,
+            "moving_time": 723,
+            "start_date": "2022-05-04T01:30:33Z",
+            "start_date_local": "2022-05-03T18:30:33Z",
+            "distance": 4422.4,
+            "start_index": 3298,
+            "end_index": 4021,
+            "average_cadence": 80.6,
+            "device_watts": true,
+            "average_watts": 228.4,
+            "average_heartrate": 151.1,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 15200611,
+                "resource_state": 2,
+                "name": "Encinal Hill - Mulholland Stingers",
+                "activity_type": "Ride",
+                "distance": 4422.4,
+                "average_grade": 3.1,
+                "maximum_grade": 15.5,
+                "elevation_high": 544,
+                "elevation_low": 406.3,
+                "start_latlng": [
+                    34.083813,
+                    -118.866922
+                ],
+                "end_latlng": [
+                    34.097592,
+                    -118.8631
+                ],
+                "elevation_profile": null,
+                "climb_category": 1,
+                "city": "Malibu",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341524918300,
+            "resource_state": 2,
+            "name": "Encinal Canyon to Decker",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 312,
+            "moving_time": 312,
+            "start_date": "2022-05-04T01:30:38Z",
+            "start_date_local": "2022-05-03T18:30:38Z",
+            "distance": 1420.83,
+            "start_index": 3303,
+            "end_index": 3615,
+            "average_cadence": 75.1,
+            "device_watts": true,
+            "average_watts": 253.9,
+            "average_heartrate": 157.1,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 272171,
+                "resource_state": 2,
+                "name": "Encinal Canyon to Decker",
+                "activity_type": "Ride",
+                "distance": 1420.83,
+                "average_grade": 6.4,
+                "maximum_grade": 13.4,
+                "elevation_high": 505.9,
+                "elevation_low": 415.6,
+                "start_latlng": [
+                    34.083399,
+                    -118.867233
+                ],
+                "end_latlng": [
+                    34.078947,
+                    -118.878667
+                ],
+                "elevation_profile": null,
+                "climb_category": 1,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341522215000,
+            "resource_state": 2,
+            "name": "Mulholland to Mulholland on the 23",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 463,
+            "moving_time": 463,
+            "start_date": "2022-05-04T01:37:49Z",
+            "start_date_local": "2022-05-03T18:37:49Z",
+            "distance": 3123.34,
+            "start_index": 3734,
+            "end_index": 4197,
+            "average_cadence": 85.4,
+            "device_watts": true,
+            "average_watts": 218.4,
+            "average_heartrate": 149.5,
+            "max_heartrate": 166,
+            "segment": {
+                "id": 3176017,
+                "resource_state": 2,
+                "name": "Mulholland to Mulholland on the 23",
+                "activity_type": "Ride",
+                "distance": 3123.34,
+                "average_grade": 2.9,
+                "maximum_grade": 11.4,
+                "elevation_high": 496.4,
+                "elevation_low": 405.6,
+                "start_latlng": [
+                    34.08828548155725,
+                    -118.87369296513498
+                ],
+                "end_latlng": [
+                    34.10448610782623,
+                    -118.85833044536412
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341523371000,
+            "resource_state": 2,
+            "name": "Mulholland Stingers",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 258,
+            "moving_time": 258,
+            "start_date": "2022-05-04T01:38:15Z",
+            "start_date_local": "2022-05-03T18:38:15Z",
+            "distance": 1530.57,
+            "start_index": 3760,
+            "end_index": 4018,
+            "average_cadence": 84.9,
+            "device_watts": true,
+            "average_watts": 257.7,
+            "average_heartrate": 155.2,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 273467,
+                "resource_state": 2,
+                "name": "Mulholland Stingers",
+                "activity_type": "Ride",
+                "distance": 1530.57,
+                "average_grade": 5.2,
+                "maximum_grade": 11,
+                "elevation_high": 541.1,
+                "elevation_low": 461.2,
+                "start_latlng": [
+                    34.089177,
+                    -118.871492
+                ],
+                "end_latlng": [
+                    34.097506,
+                    -118.862995
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": true
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341524955000,
+            "resource_state": 2,
+            "name": "Second Stinger",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 48,
+            "moving_time": 48,
+            "start_date": "2022-05-04T01:39:19Z",
+            "start_date_local": "2022-05-03T18:39:19Z",
+            "distance": 327.9,
+            "start_index": 3824,
+            "end_index": 3872,
+            "average_cadence": 91.3,
+            "device_watts": true,
+            "average_watts": 257.8,
+            "average_heartrate": 155.4,
+            "max_heartrate": 158,
+            "segment": {
+                "id": 21911417,
+                "resource_state": 2,
+                "name": "Second Stinger",
+                "activity_type": "Ride",
+                "distance": 327.9,
+                "average_grade": 3.9,
+                "maximum_grade": 13.1,
+                "elevation_high": 485.8,
+                "elevation_low": 473,
+                "start_latlng": [
+                    34.091317,
+                    -118.869334
+                ],
+                "end_latlng": [
+                    34.09173,
+                    -118.865828
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": null,
+                "state": null,
+                "country": null,
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341520237600,
+            "resource_state": 2,
+            "name": "Hwy 23 Westlake Descent",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 456,
+            "moving_time": 456,
+            "start_date": "2022-05-04T01:48:17Z",
+            "start_date_local": "2022-05-03T18:48:17Z",
+            "distance": 5427.59,
+            "start_index": 4362,
+            "end_index": 4818,
+            "average_cadence": 85.9,
+            "device_watts": true,
+            "average_watts": 164.1,
+            "average_heartrate": 143.8,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 612818,
+                "resource_state": 2,
+                "name": "Hwy 23 Westlake Descent",
+                "activity_type": "Ride",
+                "distance": 5427.59,
+                "average_grade": -4.9,
+                "maximum_grade": 21.7,
+                "elevation_high": 557,
+                "elevation_low": 281.9,
+                "start_latlng": [
+                    34.104421,
+                    -118.858376
+                ],
+                "end_latlng": [
+                    34.142539,
+                    -118.849712
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341519811600,
+            "resource_state": 2,
+            "name": "Decker Cyn Descent To Carlisle",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 246,
+            "moving_time": 246,
+            "start_date": "2022-05-04T01:48:54Z",
+            "start_date_local": "2022-05-03T18:48:54Z",
+            "distance": 3329,
+            "start_index": 4399,
+            "end_index": 4645,
+            "average_cadence": 77.6,
+            "device_watts": true,
+            "average_watts": 126.5,
+            "average_heartrate": 142,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 9703426,
+                "resource_state": 2,
+                "name": "Decker Cyn Descent To Carlisle",
+                "activity_type": "Ride",
+                "distance": 3329,
+                "average_grade": -7,
+                "maximum_grade": 5.9,
+                "elevation_high": 559.8,
+                "elevation_low": 327.2,
+                "start_latlng": [
+                    34.106072,
+                    -118.858238
+                ],
+                "end_latlng": [
+                    34.126702,
+                    -118.856468
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Malibu",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": true
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341520680000,
+            "resource_state": 2,
+            "name": "Decker Twisties ",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 155,
+            "moving_time": 155,
+            "start_date": "2022-05-04T01:49:05Z",
+            "start_date_local": "2022-05-03T18:49:05Z",
+            "distance": 2015.45,
+            "start_index": 4410,
+            "end_index": 4565,
+            "average_cadence": 72.3,
+            "device_watts": true,
+            "average_watts": 128.1,
+            "average_heartrate": 144.5,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 3278995,
+                "resource_state": 2,
+                "name": "Decker Twisties ",
+                "activity_type": "Ride",
+                "distance": 2015.45,
+                "average_grade": -6.5,
+                "maximum_grade": 0.6,
+                "elevation_high": 471,
+                "elevation_low": 341,
+                "start_latlng": [
+                    34.10665358416736,
+                    -118.85781068354845
+                ],
+                "end_latlng": [
+                    34.11814182065427,
+                    -118.85094682686031
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Malibu",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341519515600,
+            "resource_state": 2,
+            "name": "Carlisle Sprint",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 62,
+            "moving_time": 62,
+            "start_date": "2022-05-04T01:53:00Z",
+            "start_date_local": "2022-05-03T18:53:00Z",
+            "distance": 705.4,
+            "start_index": 4645,
+            "end_index": 4707,
+            "average_cadence": 96,
+            "device_watts": true,
+            "average_watts": 195.1,
+            "average_heartrate": 149.4,
+            "max_heartrate": 152,
+            "segment": {
+                "id": 23295296,
+                "resource_state": 2,
+                "name": "Carlisle Sprint",
+                "activity_type": "Ride",
+                "distance": 705.4,
+                "average_grade": -1.8,
+                "maximum_grade": 2.1,
+                "elevation_high": 315.4,
+                "elevation_low": 300.6,
+                "start_latlng": [
+                    34.126805,
+                    -118.856479
+                ],
+                "end_latlng": [
+                    34.132489,
+                    -118.853342
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341521124400,
+            "resource_state": 2,
+            "name": "Decker speedway, Carlisle to Potrero",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 164,
+            "moving_time": 164,
+            "start_date": "2022-05-04T01:53:05Z",
+            "start_date_local": "2022-05-03T18:53:05Z",
+            "distance": 1837.13,
+            "start_index": 4650,
+            "end_index": 4814,
+            "average_cadence": 93,
+            "device_watts": true,
+            "average_watts": 189,
+            "average_heartrate": 148.1,
+            "max_heartrate": 158,
+            "segment": {
+                "id": 655393,
+                "resource_state": 2,
+                "name": "Decker speedway, Carlisle to Potrero",
+                "activity_type": "Ride",
+                "distance": 1837.13,
+                "average_grade": -1.8,
+                "maximum_grade": 1.6,
+                "elevation_high": 309.6,
+                "elevation_low": 276,
+                "start_latlng": [
+                    34.12737683393061,
+                    -118.85607001371682
+                ],
+                "end_latlng": [
+                    34.14214666932821,
+                    -118.84997326880693
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Thousand Oaks",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341519441000,
+            "resource_state": 2,
+            "name": "Suck it Polk",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 37,
+            "moving_time": 37,
+            "start_date": "2022-05-04T01:55:07Z",
+            "start_date_local": "2022-05-03T18:55:07Z",
+            "distance": 436.5,
+            "start_index": 4772,
+            "end_index": 4809,
+            "average_cadence": 97.2,
+            "device_watts": true,
+            "average_watts": 234.6,
+            "average_heartrate": 141.4,
+            "max_heartrate": 148,
+            "segment": {
+                "id": 6301809,
+                "resource_state": 2,
+                "name": "Suck it Polk",
+                "activity_type": "Ride",
+                "distance": 436.5,
+                "average_grade": 0,
+                "maximum_grade": 1.6,
+                "elevation_high": 287.6,
+                "elevation_low": 285.9,
+                "start_latlng": [
+                    34.137779,
+                    -118.85031
+                ],
+                "end_latlng": [
+                    34.141574,
+                    -118.850205
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "United States",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341521188000,
+            "resource_state": 2,
+            "name": "Potrero to Westlake (when you make the lights!)",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 184,
+            "moving_time": 152,
+            "start_date": "2022-05-04T01:55:56Z",
+            "start_date_local": "2022-05-03T18:55:56Z",
+            "distance": 1214.5,
+            "start_index": 4821,
+            "end_index": 4974,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 99.7,
+            "average_heartrate": 131,
+            "max_heartrate": 156,
+            "segment": {
+                "id": 8513226,
+                "resource_state": 2,
+                "name": "Potrero to Westlake (when you make the lights!)",
+                "activity_type": "Ride",
+                "distance": 1214.5,
+                "average_grade": -0.5,
+                "maximum_grade": 2.5,
+                "elevation_high": 279.2,
+                "elevation_low": 271.4,
+                "start_latlng": [
+                    34.142769,
+                    -118.84946
+                ],
+                "end_latlng": [
+                    34.149301,
+                    -118.838965
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Thousand Oaks",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341520012300,
+            "resource_state": 2,
+            "name": "Triunfo Cyn. from Westlake to Lindero",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 291,
+            "moving_time": 282,
+            "start_date": "2022-05-04T01:59:08Z",
+            "start_date_local": "2022-05-03T18:59:08Z",
+            "distance": 2569.85,
+            "start_index": 4982,
+            "end_index": 5265,
+            "average_cadence": 89.4,
+            "device_watts": true,
+            "average_watts": 156.1,
+            "average_heartrate": 132.8,
+            "max_heartrate": 143,
+            "segment": {
+                "id": 747564,
+                "resource_state": 2,
+                "name": "Triunfo Cyn. from Westlake to Lindero",
+                "activity_type": "Ride",
+                "distance": 2569.85,
+                "average_grade": -0.2,
+                "maximum_grade": 4.1,
+                "elevation_high": 280.4,
+                "elevation_low": 274.6,
+                "start_latlng": [
+                    34.14886870421469,
+                    -118.83851101621985
+                ],
+                "end_latlng": [
+                    34.13198386318982,
+                    -118.82289133965969
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341521113000,
+            "resource_state": 2,
+            "name": "Triunfo Cyn. from Westlake to Agoura rd.",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 1419,
+            "moving_time": 630,
+            "start_date": "2022-05-04T01:59:10Z",
+            "start_date_local": "2022-05-03T18:59:10Z",
+            "distance": 5013.71,
+            "start_index": 4984,
+            "end_index": 5617,
+            "average_cadence": 87.3,
+            "device_watts": true,
+            "average_watts": 156.7,
+            "average_heartrate": 130.4,
+            "max_heartrate": 143,
+            "segment": {
+                "id": 757046,
+                "resource_state": 2,
+                "name": "Triunfo Cyn. from Westlake to Agoura rd.",
+                "activity_type": "Ride",
+                "distance": 5013.71,
+                "average_grade": 0.1,
+                "maximum_grade": 4,
+                "elevation_high": 263.8,
+                "elevation_low": 249,
+                "start_latlng": [
+                    34.148714477196336,
+                    -118.83841479197145
+                ],
+                "end_latlng": [
+                    34.1453748755157,
+                    -118.80642676725984
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341520183300,
+            "resource_state": 2,
+            "name": "Tuesday Sundown Throwdown! 🚴🏼‍♂️🚴🏼‍♀️🚴💨💨",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 140,
+            "moving_time": 140,
+            "start_date": "2022-05-04T02:01:35Z",
+            "start_date_local": "2022-05-03T19:01:35Z",
+            "distance": 1313.4,
+            "start_index": 5121,
+            "end_index": 5261,
+            "average_cadence": 95.4,
+            "device_watts": true,
+            "average_watts": 171.6,
+            "average_heartrate": 136.9,
+            "max_heartrate": 143,
+            "segment": {
+                "id": 31539694,
+                "resource_state": 2,
+                "name": "Tuesday Sundown Throwdown! 🚴🏼‍♂️🚴🏼‍♀️🚴💨💨",
+                "activity_type": "Ride",
+                "distance": 1313.4,
+                "average_grade": -0.4,
+                "maximum_grade": 1,
+                "elevation_high": 272.4,
+                "elevation_low": 266.9,
+                "start_latlng": [
+                    34.139898,
+                    -118.831881
+                ],
+                "end_latlng": [
+                    34.132177,
+                    -118.823312
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341518974000,
+            "resource_state": 2,
+            "name": "Lindero uphill",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 1101,
+            "moving_time": 345,
+            "start_date": "2022-05-04T02:04:38Z",
+            "start_date_local": "2022-05-03T19:04:38Z",
+            "distance": 2484.2,
+            "start_index": 5281,
+            "end_index": 5627,
+            "average_cadence": 85.4,
+            "device_watts": true,
+            "average_watts": 163.5,
+            "average_heartrate": 129,
+            "max_heartrate": 142,
+            "segment": {
+                "id": 15426169,
+                "resource_state": 2,
+                "name": "Lindero uphill",
+                "activity_type": "Ride",
+                "distance": 2484.2,
+                "average_grade": 0.7,
+                "maximum_grade": 2.6,
+                "elevation_high": 282.4,
+                "elevation_low": 264.6,
+                "start_latlng": [
+                    34.131902,
+                    -118.822243
+                ],
+                "end_latlng": [
+                    34.145838,
+                    -118.805787
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341519216600,
+            "resource_state": 2,
+            "name": "Westlake Dam Corner Hill",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 63,
+            "moving_time": 63,
+            "start_date": "2022-05-04T02:04:44Z",
+            "start_date_local": "2022-05-03T19:04:44Z",
+            "distance": 437.8,
+            "start_index": 5287,
+            "end_index": 5350,
+            "average_cadence": 84.7,
+            "device_watts": true,
+            "average_watts": 179.7,
+            "average_heartrate": 135.6,
+            "max_heartrate": 142,
+            "segment": {
+                "id": 22211307,
+                "resource_state": 2,
+                "name": "Westlake Dam Corner Hill",
+                "activity_type": "Ride",
+                "distance": 437.8,
+                "average_grade": 3,
+                "maximum_grade": 5.2,
+                "elevation_high": 270.2,
+                "elevation_low": 256.8,
+                "start_latlng": [
+                    34.132273,
+                    -118.822137
+                ],
+                "end_latlng": [
+                    34.136161,
+                    -118.822871
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "California",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 2956759341519143000,
+            "resource_state": 2,
+            "name": "Lindero-Lakeview to Baronsgate SPRINT",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 129,
+            "moving_time": 129,
+            "start_date": "2022-05-04T02:20:08Z",
+            "start_date_local": "2022-05-03T19:20:08Z",
+            "distance": 1174.15,
+            "start_index": 5456,
+            "end_index": 5585,
+            "average_cadence": 93,
+            "device_watts": true,
+            "average_watts": 190.8,
+            "average_heartrate": 132.7,
+            "max_heartrate": 137,
+            "segment": {
+                "id": 2340598,
+                "resource_state": 2,
+                "name": "Lindero-Lakeview to Baronsgate SPRINT",
+                "activity_type": "Ride",
+                "distance": 1174.15,
+                "average_grade": 0.4,
+                "maximum_grade": 5.4,
+                "elevation_high": 283.8,
+                "elevation_low": 279.6,
+                "start_latlng": [
+                    34.139318531379104,
+                    -118.8197960704565
+                ],
+                "end_latlng": [
+                    34.143721628934145,
+                    -118.80837078206241
+                ],
+                "elevation_profile": null,
+                "climb_category": 0,
+                "city": "Westlake Village",
+                "state": "CA",
+                "country": "United States",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "kom_rank": null,
+            "hidden": false
+        }
+    ],
+    "splits_metric": [
+        {
+            "distance": 1005.3,
+            "elapsed_time": 146,
+            "elevation_difference": 2,
+            "moving_time": 146,
+            "split": 1,
+            "average_speed": 6.89,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 109.00714285714285,
+            "pace_zone": 0
+        },
+        {
+            "distance": 994.7,
+            "elapsed_time": 115,
+            "elevation_difference": 13,
+            "moving_time": 115,
+            "split": 2,
+            "average_speed": 8.65,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 125.79130434782608,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1008.1,
+            "elapsed_time": 106,
+            "elevation_difference": 12.4,
+            "moving_time": 106,
+            "split": 3,
+            "average_speed": 9.51,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 143.25471698113208,
+            "pace_zone": 0
+        },
+        {
+            "distance": 997.8,
+            "elapsed_time": 69,
+            "elevation_difference": -2,
+            "moving_time": 69,
+            "split": 4,
+            "average_speed": 14.46,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 157.02898550724638,
+            "pace_zone": 0
+        },
+        {
+            "distance": 995.4,
+            "elapsed_time": 60,
+            "elevation_difference": -25.6,
+            "moving_time": 60,
+            "split": 5,
+            "average_speed": 16.59,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 162.76666666666668,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1001.6,
+            "elapsed_time": 160,
+            "elevation_difference": 0.4,
+            "moving_time": 77,
+            "split": 6,
+            "average_speed": 13.01,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 154.86666666666667,
+            "pace_zone": 0
+        },
+        {
+            "distance": 999.6,
+            "elapsed_time": 104,
+            "elevation_difference": -14.4,
+            "moving_time": 104,
+            "split": 7,
+            "average_speed": 9.61,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 136.97115384615384,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1003.6,
+            "elapsed_time": 105,
+            "elevation_difference": 3,
+            "moving_time": 101,
+            "split": 8,
+            "average_speed": 9.94,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 139.14,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1007.1,
+            "elapsed_time": 78,
+            "elevation_difference": -7.6,
+            "moving_time": 78,
+            "split": 9,
+            "average_speed": 12.91,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 153.42307692307693,
+            "pace_zone": 0
+        },
+        {
+            "distance": 987.9,
+            "elapsed_time": 73,
+            "elevation_difference": -11.4,
+            "moving_time": 73,
+            "split": 10,
+            "average_speed": 13.53,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 165.83561643835617,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1003.9,
+            "elapsed_time": 112,
+            "elevation_difference": 5.6,
+            "moving_time": 112,
+            "split": 11,
+            "average_speed": 8.96,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 160.16964285714286,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1002.9,
+            "elapsed_time": 88,
+            "elevation_difference": -14,
+            "moving_time": 88,
+            "split": 12,
+            "average_speed": 11.4,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 136.32954545454547,
+            "pace_zone": 0
+        },
+        {
+            "distance": 999.1,
+            "elapsed_time": 112,
+            "elevation_difference": 5.2,
+            "moving_time": 112,
+            "split": 13,
+            "average_speed": 8.92,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 151.96428571428572,
+            "pace_zone": 0
+        },
+        {
+            "distance": 996.4,
+            "elapsed_time": 96,
+            "elevation_difference": -0.8,
+            "moving_time": 96,
+            "split": 14,
+            "average_speed": 10.38,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 158.96875,
+            "pace_zone": 0
+        },
+        {
+            "distance": 998.9,
+            "elapsed_time": 134,
+            "elevation_difference": 17.8,
+            "moving_time": 134,
+            "split": 15,
+            "average_speed": 7.45,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 157.58955223880596,
+            "pace_zone": 0
+        },
+        {
+            "distance": 998.1,
+            "elapsed_time": 139,
+            "elevation_difference": 28.6,
+            "moving_time": 139,
+            "split": 16,
+            "average_speed": 7.18,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 154.46762589928056,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1001,
+            "elapsed_time": 242,
+            "elevation_difference": 71.4,
+            "moving_time": 242,
+            "split": 17,
+            "average_speed": 4.14,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 155.4297520661157,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1000.2,
+            "elapsed_time": 267,
+            "elevation_difference": 73.4,
+            "moving_time": 267,
+            "split": 18,
+            "average_speed": 3.75,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 155.2734082397004,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1000.7,
+            "elapsed_time": 294,
+            "elevation_difference": 82.8,
+            "moving_time": 294,
+            "split": 19,
+            "average_speed": 3.4,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 154.31632653061226,
+            "pace_zone": 0
+        },
+        {
+            "distance": 998.5,
+            "elapsed_time": 411,
+            "elevation_difference": 15.6,
+            "moving_time": 204,
+            "split": 20,
+            "average_speed": 4.89,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 138.9378238341969,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1000,
+            "elapsed_time": 183,
+            "elevation_difference": 24.8,
+            "moving_time": 183,
+            "split": 21,
+            "average_speed": 5.46,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 126.51912568306011,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1002.5,
+            "elapsed_time": 215,
+            "elevation_difference": 5,
+            "moving_time": 193,
+            "split": 22,
+            "average_speed": 5.19,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 140.04761904761904,
+            "pace_zone": 0
+        },
+        {
+            "distance": 999.6,
+            "elapsed_time": 64,
+            "elevation_difference": -51,
+            "moving_time": 64,
+            "split": 23,
+            "average_speed": 15.62,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 137.8125,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1011.4,
+            "elapsed_time": 55,
+            "elevation_difference": -82.8,
+            "moving_time": 55,
+            "split": 24,
+            "average_speed": 18.39,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 137.76363636363635,
+            "pace_zone": 0
+        },
+        {
+            "distance": 988.6,
+            "elapsed_time": 88,
+            "elevation_difference": -9,
+            "moving_time": 88,
+            "split": 25,
+            "average_speed": 11.23,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 149.42045454545453,
+            "pace_zone": 0
+        },
+        {
+            "distance": 997.6,
+            "elapsed_time": 125,
+            "elevation_difference": 4,
+            "moving_time": 125,
+            "split": 26,
+            "average_speed": 7.98,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 148.704,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1000.4,
+            "elapsed_time": 235,
+            "elevation_difference": 74.8,
+            "moving_time": 235,
+            "split": 27,
+            "average_speed": 4.26,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 157.67659574468084,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1014.1,
+            "elapsed_time": 142,
+            "elevation_difference": -8.8,
+            "moving_time": 142,
+            "split": 28,
+            "average_speed": 7.14,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 149.64788732394365,
+            "pace_zone": 0
+        },
+        {
+            "distance": 988.5,
+            "elapsed_time": 109,
+            "elevation_difference": 5,
+            "moving_time": 109,
+            "split": 29,
+            "average_speed": 9.07,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 128.6422018348624,
+            "pace_zone": 0
+        },
+        {
+            "distance": 999.9,
+            "elapsed_time": 164,
+            "elevation_difference": 43.4,
+            "moving_time": 164,
+            "split": 30,
+            "average_speed": 6.1,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 157.02439024390245,
+            "pace_zone": 0
+        },
+        {
+            "distance": 997.4,
+            "elapsed_time": 135,
+            "elevation_difference": 8.4,
+            "moving_time": 135,
+            "split": 31,
+            "average_speed": 7.39,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 153.62962962962962,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1000.9,
+            "elapsed_time": 139,
+            "elevation_difference": 17.8,
+            "moving_time": 139,
+            "split": 32,
+            "average_speed": 7.2,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 137.6978417266187,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1000.2,
+            "elapsed_time": 142,
+            "elevation_difference": 5.2,
+            "moving_time": 142,
+            "split": 33,
+            "average_speed": 7.04,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 132.33802816901408,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1010.8,
+            "elapsed_time": 87,
+            "elevation_difference": -52,
+            "moving_time": 87,
+            "split": 34,
+            "average_speed": 11.62,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 147.4712643678161,
+            "pace_zone": 0
+        },
+        {
+            "distance": 994.4,
+            "elapsed_time": 77,
+            "elevation_difference": -75.8,
+            "moving_time": 77,
+            "split": 35,
+            "average_speed": 12.91,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 142.64935064935065,
+            "pace_zone": 0
+        },
+        {
+            "distance": 994.5,
+            "elapsed_time": 69,
+            "elevation_difference": -96.4,
+            "moving_time": 69,
+            "split": 36,
+            "average_speed": 14.41,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 134.2753623188406,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1002.3,
+            "elapsed_time": 78,
+            "elevation_difference": -29.8,
+            "moving_time": 78,
+            "split": 37,
+            "average_speed": 12.85,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 147.71794871794873,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1003.5,
+            "elapsed_time": 91,
+            "elevation_difference": -22.8,
+            "moving_time": 91,
+            "split": 38,
+            "average_speed": 11.03,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 147.4945054945055,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1001,
+            "elapsed_time": 101,
+            "elevation_difference": -9.4,
+            "moving_time": 101,
+            "split": 39,
+            "average_speed": 9.91,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 142.46534653465346,
+            "pace_zone": 0
+        },
+        {
+            "distance": 996.8,
+            "elapsed_time": 160,
+            "elevation_difference": -2.8,
+            "moving_time": 129,
+            "split": 40,
+            "average_speed": 7.73,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 123.0625,
+            "pace_zone": 0
+        },
+        {
+            "distance": 996.7,
+            "elapsed_time": 127,
+            "elevation_difference": -1.8,
+            "moving_time": 119,
+            "split": 41,
+            "average_speed": 8.38,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 129.27118644067798,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1002.7,
+            "elapsed_time": 107,
+            "elevation_difference": 0.2,
+            "moving_time": 107,
+            "split": 42,
+            "average_speed": 9.37,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 139.00934579439252,
+            "pace_zone": 0
+        },
+        {
+            "distance": 997,
+            "elapsed_time": 162,
+            "elevation_difference": 0.6,
+            "moving_time": 139,
+            "split": 43,
+            "average_speed": 7.17,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 132.5,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1000,
+            "elapsed_time": 890,
+            "elevation_difference": 2,
+            "moving_time": 135,
+            "split": 44,
+            "average_speed": 7.41,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 121.76865671641791,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1001.2,
+            "elapsed_time": 118,
+            "elevation_difference": 13.2,
+            "moving_time": 118,
+            "split": 45,
+            "average_speed": 8.48,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 133.79661016949152,
+            "pace_zone": 0
+        },
+        {
+            "distance": 843.8,
+            "elapsed_time": 138,
+            "elevation_difference": 22.8,
+            "moving_time": 128,
+            "split": 46,
+            "average_speed": 6.59,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 138.86885245901638,
+            "pace_zone": 0
+        }
+    ],
+    "splits_standard": [
+        {
+            "distance": 1617.4,
+            "elapsed_time": 213,
+            "elevation_difference": 8,
+            "moving_time": 213,
+            "split": 1,
+            "average_speed": 7.59,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 114.13526570048309,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1613.8,
+            "elapsed_time": 169,
+            "elevation_difference": 17.8,
+            "moving_time": 169,
+            "split": 2,
+            "average_speed": 9.55,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 139.28994082840237,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1597.7,
+            "elapsed_time": 103,
+            "elevation_difference": -26.6,
+            "moving_time": 103,
+            "split": 3,
+            "average_speed": 15.51,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 161.41747572815535,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1609,
+            "elapsed_time": 210,
+            "elevation_difference": -8.8,
+            "moving_time": 127,
+            "split": 4,
+            "average_speed": 12.67,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 148.568,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1611,
+            "elapsed_time": 173,
+            "elevation_difference": -4.6,
+            "moving_time": 169,
+            "split": 5,
+            "average_speed": 9.53,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 139.33333333333334,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1612.2,
+            "elapsed_time": 122,
+            "elevation_difference": -4.8,
+            "moving_time": 122,
+            "split": 6,
+            "average_speed": 13.21,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 156.45901639344262,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1607.8,
+            "elapsed_time": 156,
+            "elevation_difference": -24.6,
+            "moving_time": 156,
+            "split": 7,
+            "average_speed": 10.31,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 160.18589743589743,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1611.9,
+            "elapsed_time": 162,
+            "elevation_difference": 14,
+            "moving_time": 162,
+            "split": 8,
+            "average_speed": 9.95,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 144.9320987654321,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1607.9,
+            "elapsed_time": 180,
+            "elevation_difference": 3,
+            "moving_time": 180,
+            "split": 9,
+            "average_speed": 8.93,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 156.5,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1607,
+            "elapsed_time": 231,
+            "elevation_difference": 44.8,
+            "moving_time": 231,
+            "split": 10,
+            "average_speed": 6.96,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 155.85281385281385,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1607.5,
+            "elapsed_time": 399,
+            "elevation_difference": 113.6,
+            "moving_time": 399,
+            "split": 11,
+            "average_speed": 4.03,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 155.9047619047619,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1611.4,
+            "elapsed_time": 477,
+            "elevation_difference": 133.6,
+            "moving_time": 472,
+            "split": 12,
+            "average_speed": 3.41,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 154.6348195329087,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1607.7,
+            "elapsed_time": 476,
+            "elevation_difference": 9,
+            "moving_time": 274,
+            "split": 13,
+            "average_speed": 5.87,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 124.52272727272727,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1620.9,
+            "elapsed_time": 271,
+            "elevation_difference": -20.8,
+            "moving_time": 249,
+            "split": 14,
+            "average_speed": 6.51,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 139.3469387755102,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1608.5,
+            "elapsed_time": 93,
+            "elevation_difference": -112.6,
+            "moving_time": 93,
+            "split": 15,
+            "average_speed": 17.3,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 139.08602150537635,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1605.3,
+            "elapsed_time": 172,
+            "elevation_difference": -7.2,
+            "moving_time": 172,
+            "split": 16,
+            "average_speed": 9.33,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 150.88953488372093,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1604.5,
+            "elapsed_time": 340,
+            "elevation_difference": 103.4,
+            "moving_time": 340,
+            "split": 17,
+            "average_speed": 4.72,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 156.22058823529412,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1608.5,
+            "elapsed_time": 173,
+            "elevation_difference": -21.2,
+            "moving_time": 173,
+            "split": 18,
+            "average_speed": 9.3,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 132.10982658959537,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1611.3,
+            "elapsed_time": 258,
+            "elevation_difference": 58,
+            "moving_time": 258,
+            "split": 19,
+            "average_speed": 6.25,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 157.9418604651163,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1605.7,
+            "elapsed_time": 223,
+            "elevation_difference": 23.2,
+            "moving_time": 223,
+            "split": 20,
+            "average_speed": 7.2,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 139.14349775784754,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1618.7,
+            "elapsed_time": 177,
+            "elevation_difference": -46.8,
+            "moving_time": 177,
+            "split": 21,
+            "average_speed": 9.15,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 135.6949152542373,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1600.4,
+            "elapsed_time": 124,
+            "elevation_difference": -125.6,
+            "moving_time": 124,
+            "split": 22,
+            "average_speed": 12.91,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 143.1290322580645,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1615.5,
+            "elapsed_time": 118,
+            "elevation_difference": -86.8,
+            "moving_time": 118,
+            "split": 23,
+            "average_speed": 13.69,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 142.98305084745763,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1608.5,
+            "elapsed_time": 149,
+            "elevation_difference": -28.8,
+            "moving_time": 149,
+            "split": 24,
+            "average_speed": 10.8,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 147.85906040268458,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1607.9,
+            "elapsed_time": 226,
+            "elevation_difference": -6.2,
+            "moving_time": 195,
+            "split": 25,
+            "average_speed": 8.25,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 126.1082474226804,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1605.4,
+            "elapsed_time": 192,
+            "elevation_difference": 0.6,
+            "moving_time": 184,
+            "split": 26,
+            "average_speed": 8.73,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 133.82513661202185,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1614.1,
+            "elapsed_time": 1009,
+            "elevation_difference": -2,
+            "moving_time": 231,
+            "split": 27,
+            "average_speed": 6.99,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 126.81659388646288,
+            "pace_zone": 0
+        },
+        {
+            "distance": 1609.9,
+            "elapsed_time": 186,
+            "elevation_difference": 16.8,
+            "moving_time": 186,
+            "split": 28,
+            "average_speed": 8.66,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 133.63978494623655,
+            "pace_zone": 0
+        },
+        {
+            "distance": 779.2,
+            "elapsed_time": 130,
+            "elevation_difference": 21.8,
+            "moving_time": 120,
+            "split": 29,
+            "average_speed": 6.49,
+            "average_grade_adjusted_speed": null,
+            "average_heartrate": 138.9561403508772,
+            "pace_zone": 0
+        }
+    ],
+    "laps": [
+        {
+            "id": 23448858673,
+            "resource_state": 2,
+            "name": "Lap 1",
+            "activity": {
+                "id": 7084588632,
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 8116,
+                "resource_state": 1
+            },
+            "elapsed_time": 6913,
+            "moving_time": 5770,
+            "start_date": "2022-05-04T00:30:19Z",
+            "start_date_local": "2022-05-03T17:30:19Z",
+            "distance": 45846.6,
+            "start_index": 0,
+            "end_index": 5723,
+            "total_elevation_gain": 877.8,
+            "average_speed": 7.95,
+            "max_speed": 19.898,
+            "average_cadence": 83.3,
+            "device_watts": true,
+            "average_watts": 189.2,
+            "average_heartrate": 144,
+            "max_heartrate": 176,
+            "lap_index": 1,
+            "split": 1
+        }
+    ],
+    "gear": {
+        "id": "b591511",
+        "primary": false,
+        "name": "Road1",
+        "nickname": "Road1",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 109129641,
+        "converted_distance": 67810
+    },
+    "photos": {
+        "primary": {
+            "id": null,
+            "unique_id": "1d931210-af1e-4e74-84ea-1bb2d6480cac",
+            "urls": {
+                "100": "https://dgtzuqphqg23d.cloudfront.net/yDK2ugWwRK6rSVzllL4J4X2n8KmvX0XyhJ_A7X_7zN8-128x77.jpg",
+                "600": "https://dgtzuqphqg23d.cloudfront.net/yDK2ugWwRK6rSVzllL4J4X2n8KmvX0XyhJ_A7X_7zN8-768x462.jpg"
+            },
+            "source": 1
+        },
+        "use_primary_photo": true,
+        "count": 1
+    },
+    "stats_visibility": [
+        {
+            "type": "heart_rate",
+            "visibility": "everyone"
+        },
+        {
+            "type": "pace",
+            "visibility": "everyone"
+        },
+        {
+            "type": "power",
+            "visibility": "everyone"
+        },
+        {
+            "type": "speed",
+            "visibility": "everyone"
+        },
+        {
+            "type": "calories",
+            "visibility": "everyone"
+        }
+    ],
+    "hide_from_home": false,
+    "device_name": "Wahoo ELEMNT BOLT",
+    "embed_token": "551a67fc7386fc0733f94193e8673cd81a3f00e0",
+    "private_note": "",
+    "available_zones": [
+        "heartrate",
+        "power"
+    ],
+    "RiderID": "1"
+}
