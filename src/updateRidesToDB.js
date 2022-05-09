@@ -1,6 +1,6 @@
-const { createActivity, updateActivity } = require("./manageActivity");
+const { createActivity, updateActivity, requestDetailforActivity } = require("./manageActivity");
 
-const updateRidesToDB = async (arrayWithRiderID, docClient) => {
+const updateRidesToDB = async (arrayWithRiderID, docClient, sqs) => {
   if( !Array.isArray(arrayWithRiderID) || arrayWithRiderID.length === 0 ) return;
 
   const createBatchParams = (recentRides) => {
@@ -39,11 +39,13 @@ const updateRidesToDB = async (arrayWithRiderID, docClient) => {
       dbUpdateArray.push( updateActivity(ride, docClient) );
     } else {
       dbUpdateArray.push( createActivity(ride, docClient) );
+      dbUpdateArray.push( requestDetailforActivity(ride, sqs) );
     }
   }
 
   await Promise.all(dbUpdateArray);
   console.log(`all done updateRidesToDB for ${dataArray.length} activities`);
+  return createdActivities;
 };
 
 exports.updateRidesToDB = updateRidesToDB;

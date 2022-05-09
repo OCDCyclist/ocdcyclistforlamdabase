@@ -13,6 +13,29 @@ const updateActivity = async (activity, docClient) => {
   await updateIt(filterRecentRideObject(activity, "update", fieldList), docClient);
 };
 
+const requestDetailforActivity = async (activity, sqs) =>{
+  if( typeof activity !== 'object') return;
+  const params = {
+    // Remove DelaySeconds parameter and value for FIFO queues
+    DelaySeconds: 0,
+    MessageAttributes: {
+      RiderID: {
+        DataType: "String",
+        StringValue: `${activity.RiderID}`,
+      },
+      id: {
+        DataType: "String",
+        StringValue: `${activity.id}`,
+      },
+    },
+    MessageBody: `RiderID ${riderID} requests activity detail for id ${activity.id}`,
+    QueueUrl:
+      "https://sqs.us-west-2.amazonaws.com/085991549361/OCDCyclistRequestActivityDetail",
+  };
+  await sqs.sendMessage(params).promise();
+  console.log(`requestDetailforActivity for RiderID ${activity.RiderID} and id ${activity.id} queued.`)
+};
+
 const putIt = async (activity, docClient) => {
   var params = {
     TableName: "Rides",
@@ -72,3 +95,4 @@ const logMessage = (type, activity, err) =>{
 
 exports.createActivity = createActivity;
 exports.updateActivity = updateActivity;
+exports.requestDetailforActivity = requestDetailforActivity;

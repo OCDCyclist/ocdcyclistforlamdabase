@@ -199,16 +199,4 @@ describe("getRidersFromEvent realistic functional tests with SQS queue events", 
       expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
       expect( actual.includes("1") ).toBe(true);
   });
-
-  test("getRidersFromEvent returns at least 1 rider when the incoming event has no riders", async () => {
-    const AWS = require("aws-sdk");
-    AWS.config.update({ region: "us-west-2" });
-    const docClient = new AWS.DynamoDB.DocumentClient({
-      apiVersion: "2012-08-10",
-    });
-
-    const actual = await getRidersFromEvent(noRiderEvent, docClient);
-    expect( Array.isArray(actual) && actual.length === 1 ).toBe(true);
-    expect( actual.includes("1") ).toBe(true);
-  });
 });
