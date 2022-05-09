@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1126.0",
+    "aws-sdk": "^2.1130.0",
     "dotenv": "^16.0.0",
     "jest": "^28.1.0",
     "node-fetch": "^2.6.7"

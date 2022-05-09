@@ -1,34 +1,34 @@
-exports.sampleEventHistoricalRidesStrava = {
-  "Records": [
-      {
-          "messageId": "2f65d76a-e741-4c41-942c-8def237564b5",
-          "receiptHandle": "AQEBGf5E2rvM1WeAzPvAXw6OZ569Tunf4mgmxeQQzqPm/3t3YsxEy3sHHaV0FkAxYSxsWtmVcTjhtDF7W4c2FMIiHc84F5tKeL/pX9QcmU6oyLtRUBHQmliq1jyzfrEkBk7WO/0zZsikem9MuevSgFsJ6HQqj6KGXXZIDB/dMdsh+anLoBUV6H33gI20taRtrXlTBoW7ptHCPx4+hiHUdo1d/n0jm4k6bniT8/yyeGanIAv1TWjLj5Zr4dWFQ2NByoW4H+GC8yNbcE7thAi8spiIbwyzlEc0+sDGtrFkOeQZ+vlsZmAEB7sBD0sBGcCdO3Ei6dQCw9bhtP8u51MVmeRd9RSAKiO1sxjm/IS7+d7VbLhcfAwp4NNK4hVQ4DvsA1oAEmooTmtmG1FzRClIltcAq/aZnDxAgsf+zkiahmo3Np0=",
-          "body": "Test request for activity detail",
-          "attributes": {
-              "ApproximateReceiveCount": "3",
-              "SentTimestamp": "1652027070662",
-              "SenderId": "085991549361",
-              "ApproximateFirstReceiveTimestamp": "1652027074303"
-          },
-          "messageAttributes": {
-              "RiderID": {
-                  "stringValue": "1",
-                  "stringListValues": [],
-                  "binaryListValues": [],
-                  "dataType": "String"
-              },
-              "id": {
-                  "stringValue": "123",
-                  "stringListValues": [],
-                  "binaryListValues": [],
-                  "dataType": "Number"
-              }
-          },
-          "md5OfBody": "27f39e9680c80ae48cefd781c13e1f55",
-          "md5OfMessageAttributes": "421cbc454bb21609b5267627cca01231",
-          "eventSource": "aws:sqs",
-          "eventSourceARN": "arn:aws:sqs:us-west-2:085991549361:OCDCyclistRequestActivityDetail",
-          "awsRegion": "us-west-2"
-      }
-  ]
+exports.sampleEventRequestActivityDetail = {
+    "Records": [
+        {
+            "messageId": "66c59ab2-a06a-4c72-8839-5c6cec31b8e9",
+            "receiptHandle": "AQEB6SbKfC8Xf0uXh66P6Zd3pb34SsSp/t8jhtgnxGlpbVdjxUWt3agucyu0ILA4ffSk+ju6EvU0V+/eBsstAx7/sP5rd01hwBmaVqW2qEwxF7IIsalVMi6jlOs/gcSSn0ar30aiqHaaWS7FZL2/YTm1NlfYN2GQyG0yPoKJc1yBS7uBjJ9Pn8Kbyqlw1zBTqncKK+mCvtyJnfom7WB2ZXshuX3I+zmqnP8cq/lAYbKXQP4cLS7cdg5AwB6JmfoHBHwHnvlNjcVh3XzYLoUwpg9LF1arfcy24Dj9wqliRTk64oITXzf9koDQyjqBq/a1F6aZEICPJcFuNUZNlvNailoW3Ztz37tADfcFuwRB62A17zRCJSsyuXB/BgfTdug9hq4cTwK06xYjz+67iiQshLwPUV+ClND4zngwnuzGIPOXub0=",
+            "body": "Test Event to see the syntax",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1652067721354",
+                "SenderId": "085991549361",
+                "ApproximateFirstReceiveTimestamp": "1652067721365"
+            },
+            "messageAttributes": {
+                "RiderID": {
+                    "stringValue": "1",
+                    "stringListValues": [],
+                    "binaryListValues": [],
+                    "dataType": "String"
+                },
+                "id": {
+                    "stringValue": "7110437108",
+                    "stringListValues": [],
+                    "binaryListValues": [],
+                    "dataType": "Number"
+                }
+            },
+            "md5OfMessageAttributes": "ab4045fac17001608f5b6e227ef83df9",
+            "md5OfBody": "5ca304f917b40151fa6930a0ea502286",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-west-2:085991549361:OCDCyclistRequestActivityDetail",
+            "awsRegion": "us-west-2"
+        }
+    ]
 }

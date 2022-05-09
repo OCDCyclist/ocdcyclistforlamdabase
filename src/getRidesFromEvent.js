@@ -8,8 +8,8 @@ const getRidesFromEvent = async event =>{
     try{
         const records = event.Records;
         for( let i = 0; i < records.length; i++){
-            const thisRiderID   = records[i].MessageAttributes.RiderID.StringValue;
-            const thisID        = records[i].MessageAttributes.id.StringValue;
+            const thisRiderID   = records[i].messageAttributes.RiderID.stringValue;
+            const thisID        = records[i].messageAttributes.id.stringValue;
             if( isValidString(thisRiderID) && thisID > 0){
                 if( !rides.some( obj => obj.RiderID === thisRiderID && obj.id === thisID) ){
                     rides.push( Object.assign({},{RiderID: thisRiderID, id: thisID}) );

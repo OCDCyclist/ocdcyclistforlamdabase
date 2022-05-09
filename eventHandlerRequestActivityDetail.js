@@ -1,7 +1,7 @@
 const {uploadRideDetailStrava} = require('./src/uploadRideDetailStrava');
 const {getRidesFromEvent} = require('./src/getRidesFromEvent');
 
-const eventHandlerRideDetailStrava = async (event, s3, docClient) =>{
+const eventHandlerRequestActivityDetail = async (event, s3, docClient) =>{
     const rides = await getRidesFromEvent( event, docClient);
     const promiseArray = [];
 
@@ -10,7 +10,7 @@ const eventHandlerRideDetailStrava = async (event, s3, docClient) =>{
     }
 
     await Promise.all(promiseArray);
-    console.log('all done eventHandlerRideDetailStrava')
+    console.log('all done eventHandlerRequestActivityDetail')
 }
-exports.eventHandlerRideDetailStrava = eventHandlerRideDetailStrava;
+exports.eventHandlerRequestActivityDetail = eventHandlerRequestActivityDetail;
 
