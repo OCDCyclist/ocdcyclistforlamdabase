@@ -45,7 +45,6 @@ const updateRidesToDB = async (arrayWithRiderID, docClient, sqs) => {
 
   await Promise.all(dbUpdateArray);
   console.log(`all done updateRidesToDB for ${dataArray.length} activities`);
-  return createdActivities;
 };
 
 exports.updateRidesToDB = updateRidesToDB;
